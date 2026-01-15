@@ -48,19 +48,19 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 ==================================---*/
 .top-header-area {
     padding: 11px 0;
-    border-bottom: 1px solid #49ae4436;
+    border-bottom: 1px solid #A97735;
     z-index: 9;
     position: relative;
 }
 
 .top-header-info ul li {
     display: inline-block;
-    color: #fff;
+    color: #D09A40;
     margin-right: 29px;
 }
 
 .top-header-info ul li i {
-    color: #A97735;
+    color: #AA8F00;
     display: inline-block;
     font-size: 17px;
     padding-right: 5px;
@@ -77,12 +77,12 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 
 .top-header-contact span {
     display: inline-block;
-    color: #fff;
+    color: #D09A40;
 }
 
 .top-header-contact span i {
     display: inline-block;
-    color: #A97735;
+    color: #AA8F00;
     padding-right: 8px;
 }
 
@@ -95,14 +95,14 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 
 .top-header-social-icon ul li i {
-    color: #fff;
+    color: #AA8F00;
     font-size: 15px;
     padding-left: 14px;
     transition: 0.5s;
 }
 
 .top-header-social-icon ul li i:hover{
-   color: #A97735;
+   color: #F6D784;
 }
 
 /*---=================================
@@ -110,7 +110,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 ==================================---*/
 
 .header-area {
-    border-bottom: 1px solid #49ae4421;
+    border-bottom: 1px solid #A97735;
     z-index: 9;
     position: relative;
     margin-bottom: -143px;
@@ -135,7 +135,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 
 .header-menu ul li a {
     display: inline-block;
-    color: #fff;
+    color: #A97735;
     padding: 33px 0;
     font-size: 17px;
     font-weight: 500;
@@ -143,7 +143,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 
 .header-menu ul li a:hover{
-   color: #A97735;
+   color: #F6D784;
 }
 
 .header-menu ul li i {
@@ -160,7 +160,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 
 .header-secrch-icon i {
     display: inline-block;
-    color: #A97735;
+    color: #AA8F00;
     font-size: 16px;
     cursor: pointer;
 }
@@ -220,12 +220,13 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     width: 100%;
     -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
-    background: #111111 !important;
+    background: transparent !important;
     transition: 0.5s;
     z-index: 999 !important;
     -webkit-animation: 300ms running fadeInDown;
     animation: 500ms running fadeInUp;
     animation-name: slideInDown;
+    backdrop-filter: blur(20px);
 }
 
 /*sub-menu*/
@@ -312,7 +313,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 }
 
 .hero-content h4 {
-    color: #FF851B;
+    color: #AA8F00;
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
@@ -344,18 +345,18 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 
 .hero-social-icon ul li i {
     display: inline-block;
-    color: #fff;
+    color: #AA8F00;
     font-size: 16px;
     margin-bottom: 28px;
     transition: 0.5s;
 }
 
 .hero-social-icon ul li i:hover{
-   color: #A97735;
+   color: #F6D784;
 }
 
 .hero-social-icon ul li.text {
-    color: #fff;
+    color: #AA8F00;
     text-transform: uppercase;
     transform: rotate(-90deg);
     position: relative;
@@ -370,7 +371,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     height: 1px;
     left: 111px;
     top: 10px;
-    background: #fff;
+    background: #F6D784;
 }
 
 
@@ -404,7 +405,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     height: 25px;
     z-index: 1;
     content: "";
-    border: 2px solid #A97735;
+    border: 2px solid #AA8F00;
     left: -9px;
     top: -9px;
     border-radius: 50%;
@@ -559,7 +560,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 .echofy-text-section .marquee-block .content-box h6.title {
     display: inline-block;
     font-size: 30px;
-    color: #fff;
+    color: #ffffff;
     font-weight: 600;
     padding: 0 48px;
 }
@@ -646,7 +647,7 @@ img.about-thumb-shape {
 }
 
 .single-about-box:nth-child(3) {
-    border-bottom: 1px solid #AA8F00;
+    border-bottom: 1px solid #D09A40;
     padding-bottom: 31px;
     margin-bottom: 3px;
 }
@@ -728,7 +729,7 @@ img.about-thumb-shape {
 
 .section-title.left h4 {
     text-transform: uppercase;
-    color: #FF851B;
+    color: #AA8F00;
     font-weight: 500;
     font-size: 16px;
     margin-bottom: 26px;
@@ -750,7 +751,7 @@ img.about-thumb-shape {
 
 .section-title.center h4 {
     text-transform: uppercase;
-    color: #FF851B;
+    color: #AA8F00;
     font-weight: 500;
     font-size: 16px;
     margin-bottom: 26px;
@@ -807,7 +808,7 @@ p.section-desc {
     height: 0;
     left: 0;
     top: 0;
-    border: 2px solid #A97735;
+    border: 2px solid #D09A40;
     z-index: -1;
     border-radius: 5px;
     transition: 0.5s;
@@ -853,7 +854,7 @@ p.section-desc {
     height: 2px;
     left: 0;
     bottom: -13px;
-    background: #A97735;
+    background: #D09A40;
 }
 
 .service-content p {
@@ -888,7 +889,7 @@ p.section-desc {
 .service-area .owl-prev i {
     background: #E6E7E9;
     display: inline-block;
-    color: #001F3F;
+    color: #A97735;
     width: 55px;
     height: 55px;
     text-align: center;
@@ -912,7 +913,7 @@ p.section-desc {
 .service-area .owl-next i {
     background: #E6E7E9;
     display: inline-block;
-    color: #001F3F;
+    color: #A97735;
     width: 55px;
     height: 55px;
     text-align: center;
@@ -1026,7 +1027,7 @@ p.section-desc {
 }
 
 .skill-bg {
-    background: #222;
+    background: #F6D784;
     width: 95%;
     height: 8px;
     border-radius: 4px;
@@ -1043,7 +1044,7 @@ span.number {
 
 .html {
     width: 80%;
-    background-color: #A97735;
+    background-color: #D09A40;
     display: inline-block;
     animation: html5 2s ease-out;
     height: 8px;
@@ -1055,7 +1056,7 @@ span.number {
 
 .css {
     width: 70%;
-    background-color: #A97735;
+    background-color: #D09A40;
     display: inline-block;
     animation: html5 2s ease-out;
     height: 8px;
@@ -1164,7 +1165,7 @@ span.number {
    <!--Echofy Counter Area Css-->
 ==================================---*/
 #poress-row {
-    background: #F6F6EE;
+    background: #f6f0ee;
     margin-top: -93px;
     position: relative;
     z-index: 1;
@@ -1216,7 +1217,7 @@ span.number {
     background: #fff;
     padding: 30px 34px 28px;
     width: 88%;
-    border-left: 5px solid #A97735;
+    border-left: 5px solid #AA8F00;
     position: relative;
     margin-top: -38px;
     transition: 0.5s;
@@ -1225,7 +1226,7 @@ span.number {
 }
 
 .single-project-box:hover .project-content {
-    background: #001819;
+    background: #FEB901;
     height: 159px;
     margin-top: -83px;
 }
@@ -1244,7 +1245,7 @@ span.number {
 
 .project-content a {
     display: inline-block;
-    color: #001819;
+    color: #FEB901;
     font-size: 26px;
     font-weight: 600;
     transition: 0.5s;
@@ -1314,7 +1315,7 @@ a.project-button:hover i{
 .project-area .owl-prev i {
     background: #E6E7E9;
     display: inline-block;
-    color: #222;
+    color: #A97735;
     width: 55px;
     height: 55px;
     text-align: center;
@@ -1338,7 +1339,7 @@ a.project-button:hover i{
 .project-area .owl-next i {
     background: #E6E7E9;
     display: inline-block;
-    color: #222;
+    color: #A97735;
     width: 55px;
     height: 55px;
     text-align: center;
@@ -1454,7 +1455,7 @@ transform: rotate(360deg);
 }
 
 .single-testimonial-box {
-    filter: drop-shadow(0px 10px 30px rgba(179,179,179,0.2));
+    filter: drop-shadow(0px 10px 30px #AA8F00);
     background-color: #ffffff;
     border-radius: 5px;
     padding: 34px 43px 32px;
@@ -1583,7 +1584,7 @@ transform: rotate(360deg);
 
 .brand-content h4 {
     font-size: 24px;
-    color: #fff;
+    color: #AA8F00;
     font-weight: 600;
     margin: 0;
     position: relative;
@@ -1598,7 +1599,7 @@ transform: rotate(360deg);
     height: 1px;
     right: -42px;
     top: 17px;
-    background: #fff;
+    background: #F6D784;
 }
 
 .brand-content h4:after {
@@ -1608,7 +1609,7 @@ transform: rotate(360deg);
     height: 1px;
     left: -42px;
     top: 17px;
-    background: #fff;
+    background: #F6D784;
 }
 
 .single-brand-box {
@@ -1694,13 +1695,13 @@ transform: rotate(360deg);
 }
 
 .team-social-icon ul li i {
-    border: 1px solid #d5dfda;
+    border: 1px solid #F6D784;
     display: inline-block;
     width: 34px;
     height: 34px;
     line-height: 34px;
     border-radius: 50%;
-    color: #7d8d85;
+    color: #AA8F00;
     position: relative;
     z-index: 1;
     transition: 0.5s;
@@ -1713,7 +1714,7 @@ transform: rotate(360deg);
     height: 100%;
     left: 0;
     top: 0;
-    background:#A97735;
+    background:#F6D784;
     border-radius: 50%;
     z-index: -1;
     transform:scale(0);
@@ -1761,7 +1762,7 @@ transform: rotate(360deg);
 }
 
 .blog-content {
-    border: 1px solid rgba(0,24,25,0.1);
+    border: 1px solid #D09A40;
     padding: 27px 32px 28px;
 }
 
@@ -1769,13 +1770,13 @@ transform: rotate(360deg);
     font-size: 24px;
     font-weight: 600;
     display: inline-block;
-    color: #001819;
+    color: #AA8F00;
     line-height: 32px;
     transition: 0.5s;
 }
 
 .blog-content a:hover{
-    color: #A97735;
+    color: #D09A40;
 }
 
 .blog-content p {
@@ -1786,7 +1787,7 @@ transform: rotate(360deg);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid rgba(0,24,25,0.1);
+    border: 1px solid #D09A40;
     border-top: transparent;
     padding: 13px 28px 14px;
     border-radius: 0 0 5px 5px;
@@ -1814,10 +1815,11 @@ transform: rotate(360deg);
     font-size: 26px;
     display: inline-block;
     transition: 0.5s;
+    color:#A97735;
 }
 
 .blog-button i:hover{
-    color: #A97735;
+    color: #F6D784;
 }
 
 
@@ -1842,7 +1844,7 @@ transform: rotate(360deg);
 
 .footer-social-address-content h4 {
     font-size: 40px;
-    color: #fff;
+    color: #AA8F00;
     margin: 0;
 }
 
@@ -1878,7 +1880,7 @@ transform: rotate(360deg);
 }
 
 .footer-social-icon ul li i:hover{
-   color:#A97735;
+   color:#AA8F00;
 } 
 
 .footer-social-icon ul li i:after{
@@ -1929,7 +1931,7 @@ p.footer-desc {
     height: 2px;
     left: 0;
     top: 11px;
-    background: #A97735;
+    background: #D09A40;
 }
 
 .footer-contect-info ul li {
@@ -1938,7 +1940,7 @@ p.footer-desc {
 }
 
 .footer-contect-info ul li i {
-    color: #A97735;
+    color: #AA8F00;
     display: inline-block;
     margin-right: 12px;
 }
@@ -1982,7 +1984,7 @@ p.footer-desc {
     background: transparent;
     width: 100%;
     height: 60px;
-    border: 1px solid #ffffff47;
+    border: 1px solid #D09A40;
     border-radius: 5px;
     padding: 0 14px;
     outline: 0;
@@ -2011,7 +2013,7 @@ p.footer-desc {
 }
 
 .footer-bottom-area .row.footer-bottom {
-    border-top: 1px solid #ffffff3d;
+    border-top: 1px solid #D09A40;
     padding-top: 18px;
 }
 
@@ -2023,7 +2025,7 @@ p.footer-desc {
 
 .footer-bottom-content a {
     display: inline-block;
-    color: #A97735;
+    color: #AA8F00;
 }
 
 
@@ -2032,7 +2034,7 @@ p.footer-desc {
    <!--Echofy Home Two Area-->
 ===============================================================---*/
 .top-header-area.home-two {
-    background-color: #001819;
+    background-color: #FEB901;
     border: transparent;
 }
 
@@ -2111,12 +2113,12 @@ p.footer-desc {
 }
 
 .home-two .hero-content h1 {
-    color: #001819;
+    color: #FEB901;
 }
 
 .home-two .hero-content p {
     opacity: 0.700;
-    color: #001819;
+    color: #FEB901;
     width: 100%;
 }
 
@@ -2125,15 +2127,15 @@ p.footer-desc {
 }
 
 .home-two .hero-social-icon ul li.text {
-    color: #001819;
+    color: #FEB901;
 }
 
 .home-two .hero-social-icon ul li.text:before {
-    background:#001819;
+    background:#FEB901;
 }
 
 .home-two .hero-social-icon ul li i {
-    color: #001819;
+    color: #FEB901;
     transition: 0.5s;
 }
 
@@ -2244,7 +2246,7 @@ transform: rotate(360deg);
 
 .home-two .about-list-item ul li {
     font-size: 18px;
-    color: #001819;
+    color: #FEB901;
     font-weight: 500;
     line-height: 41px;
 }
@@ -2559,7 +2561,7 @@ transform: rotate(360deg);
 }
 
 .home-two .single-project-box:hover .project-content a {
-    color: #001819;
+    color: #FEB901;
 }
 
 .home-two .project-content i {
@@ -2845,7 +2847,7 @@ transform: rotate(360deg);
 
 .donation-content a {
     display: inline-block;
-    color: #001819;
+    color: #FEB901;
     font-size: 24px;
     font-weight: 600;
     line-height: 30px;
@@ -2867,7 +2869,7 @@ transform: rotate(360deg);
 
 .donation-area span.number {
     top: -31px;
-    color: #001819;
+    color: #FEB901;
 }
 
 .donation-area .skills.html.style-one {
@@ -2890,7 +2892,7 @@ transform: rotate(360deg);
 
 span.price {
     font-size: 16px;
-    color: #001819 !important;
+    color: #FEB901 !important;
     display: inline-block;
     font-weight: 500;
 }
@@ -3353,7 +3355,7 @@ span.price {
 
 .home-three .nav-link {
     display: block;
-    color: #001819;
+    color: #FEB901;
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
@@ -3381,7 +3383,7 @@ span.price {
 }
 
 .home-three .about-list-item ul li {
-    color: #001819;
+    color: #FEB901;
     font-weight: 600;
     margin-bottom: 11px;
 }
@@ -3424,7 +3426,7 @@ span.price {
 }
 
 .home-three.service-title-area .section-title.center h1 {
-    color: #001819;
+    color: #FEB901;
 }
 
 
@@ -3704,7 +3706,7 @@ span.price {
     float: right;
     top: -35px;
     position: relative;
-    color: #001819;
+    color: #FEB901;
 }
 
 .home-three .skill-bar {
@@ -3933,7 +3935,7 @@ span.price {
     font-size: 24px;
     font-weight: 700;
     display: inline-block;
-    color: #001819;
+    color: #FEB901;
     line-height: 33px;
     transition: 0.5s;
 }
@@ -4237,7 +4239,7 @@ span.price {
     font-size: 85px;
     font-weight: 900;
     line-height: 85px;
-    color: #001819;
+    color: #FEB901;
 }
 
 .home-four .hero-content p {
@@ -4579,7 +4581,7 @@ span.price {
     float: right;
     top: -35px;
     position: relative;
-    color: #001819;
+    color: #FEB901;
 }
 
 .home-four .skill-bar {
@@ -4635,7 +4637,7 @@ span.price {
 .home-four .testi-content span {
     font-size: 36px;
     display: inline-block;
-    color: #001819;
+    color: #FEB901;
     font-weight: 700;
 }
 
@@ -4643,7 +4645,7 @@ span.price {
     text-align: right;
     background: #fff;
     font-size: 20px;
-    color: #001819;
+    color: #FEB901;
     font-weight: 500;
     font-style: italic;
     width: 78%;
@@ -4778,7 +4780,7 @@ span.price {
 .home-four a.blog-button {
     display: inline-block;
     font-size: 16px;
-    color: #001819;
+    color: #FEB901;
     font-weight: 500;
     margin-top: 12px;
     transition: 0.5s;
@@ -5306,7 +5308,7 @@ span.price {
 
 .home-five a.about-button {
     display: inherit;
-    color: #001819;
+    color: #FEB901;
     font-weight: 600;
     font-size: 15px;
 }
@@ -5381,7 +5383,7 @@ span.price {
     display: inline-block;
     font-size: 18px;
     font-weight: 600;
-    color: #001819;
+    color: #FEB901;
 }
 
 .home-five .about-shape {
@@ -5499,7 +5501,7 @@ span.price {
    <!--Echofy Strat Contact info Area Home Five Css-->
 =========================================================---*/
 .home-five.contact-info-area {
-    background-color: #001819;
+    background-color: #FEB901;
     padding: 53px 0 62px;
 }
 
@@ -5624,7 +5626,7 @@ span.price {
 .home-five .event-titel p {
     font-size: 17px;
     font-weight: 600;
-    color: #001819;
+    color: #FEB901;
 }
 
 .home-five .event-titel a {
@@ -5647,7 +5649,7 @@ span.price {
 
 .home-five .event-desc-box span {
     display: inline-block;
-    color: #001819;
+    color: #FEB901;
     font-weight: 700;
 }
 
@@ -5743,7 +5745,7 @@ span.price {
 
 .home-five .donation-list ul li a {
     background: #fff;
-    color: #001819;
+    color: #FEB901;
     display: inline-block;
     font-weight: 600;
     padding: 7px 18px;
@@ -5958,7 +5960,7 @@ span.price {
 
 .home-five .blog-button a {
     display: inline-block;
-    color: #001819;
+    color: #FEB901;
     font-size: 16px !important;
     background: #E9EBEA;
     padding: 7px 26px;
@@ -6455,7 +6457,7 @@ p.services-details-desc {
     width: 100%;
     display: inline-block;
     margin-bottom: 14px;
-    color: #001819;
+    color: #FEB901;
     font-weight: 500;
     border-radius: 5px;
     position: relative;
@@ -6719,19 +6721,19 @@ p.blog-details-desc {
     font-size: 20px;
     font-style: italic;
     line-height: 30px;
-    color: #001819;
+    color: #FEB901;
 }
 
 .blog-details-quote img {
     position: relative;
     top: 8px;
-    color: #001819;
+    color: #FEB901;
 }
 
 .blog-details-author-title span {
     margin-left: 58px;
     display: inline-block;
-    color: #001819;
+    color: #FEB901;
     position: relative;
 }
 
@@ -6791,7 +6793,7 @@ p.blog-details-desc.three {
     background: #F6F6EE;
     padding: 6px 16px;
     font-weight: 500;
-    color: #001819;
+    color: #FEB901;
     border-radius: 3px;
     margin-right: 7px;
     transition: 0.5s;
@@ -6862,7 +6864,7 @@ p.blog-details-desc.three {
     display: inline-block;
     font-size: 20px;
     line-height: 26px;
-    color: #001819;
+    color: #FEB901;
     font-weight: 600;
     transition: 0.5s;
 }
@@ -6886,7 +6888,7 @@ p.blog-details-desc.three {
     top: -159px;
     left: 54px;
     font-size: 18px !important;
-    color: #001819;
+    color: #FEB901;
     font-weight: 500;
 }
 
@@ -6904,7 +6906,7 @@ p.blog-details-desc.three {
     top: -159px;
     right: 54px;
     font-size: 18px;
-    color:#001819;
+    color:#FEB901;
     font-weight: 500;
 }
 
@@ -7061,7 +7063,7 @@ p.blog-details-desc.three {
 
 /*sidber Css*/
 
-.widget_search form {
+.widget_ form {
     position: relative;
 }
 
@@ -7097,7 +7099,7 @@ button.icons {
 
 .recent-widget-content a {
     transition: 0.5s;
-    color: #001819 !important;
+    color: #FEB901 !important;
     font-weight: 500;
     font-size: 18px;
     line-height: 26px;
@@ -7479,7 +7481,7 @@ span.widget-sidber-contact-gmail i {
 
 a.blog-list-title {
     display: inline-block;
-    color: #001819;
+    color: #FEB901;
     font-size: 32px;
     margin: 14px 0 20px;
     font-weight: 700;
@@ -7504,7 +7506,7 @@ p.blog-list-desc {
 .blog-list-button a {
     display: inline-block;
     font-size: 16px;
-    color: #001819;
+    color: #FEB901;
     font-weight: 500;
     transition: 0.5s;
 }
@@ -7827,7 +7829,7 @@ p.blog-list-desc {
 }
 
 .home-six .about-list-item ul li {
-    color: #001819;
+    color: #FEB901;
     font-weight: 500;
     line-height: 40px;
 }
@@ -8455,7 +8457,7 @@ p.blog-list-desc {
     font-size: 24px;
     font-weight: 700;
     display: inline-block;
-    color: #001819;
+    color: #FEB901;
     transition: 0.5s;
 }
 
@@ -8594,7 +8596,7 @@ p.blog-list-desc {
 }
 
 .home-six .contact-box input::placeholder{
-    color: #001819;
+    color: #FEB901;
     opacity: 0.5;
 }
 
@@ -8609,7 +8611,7 @@ p.blog-list-desc {
 }
 
 .home-six .contact-box textarea::placeholder{
-    color: #001819;
+    color: #FEB901;
     opacity: 0.5;
 }
 
@@ -8937,15 +8939,15 @@ p.blog-list-desc {
 }
 
 .home-seven .skill-bar {
-    background: #001819;
+    background: #FEB901;
 }
 
 .home-seven .skill > p {
-    color: #001819;
+    color: #FEB901;
 }
 
 .home-seven .skill-bar span {
-     color: #001819;
+     color: #FEB901;
 }
 
 
@@ -9260,7 +9262,7 @@ p.blog-list-desc {
 }
 
 .home-seven .faq-singular.active .faq-question {
-    color: #001819;
+    color: #FEB901;
 }
 
 .home-seven .faq-singular .faq-question:before {
@@ -9424,7 +9426,7 @@ p.blog-list-desc {
     cursor: pointer;
     display: block;
     border-radius: 50px;
-    box-shadow: inset 0 0 0 2px rgba(22, 93, 245, 0.2);
+    box-shadow: inset 0 0 0 2px #F6D784;
     z-index: 9999999999;
     opacity: 0;
     visibility: hidden;
@@ -9446,7 +9448,7 @@ p.blog-list-desc {
     text-align: center;
     line-height: 46px;
     font-size: 18px;
-    color: #49AF45;
+    color: #A97735;
     left: 0;
     top: 0;
     height: 46px;
@@ -9480,7 +9482,7 @@ p.blog-list-desc {
   transition: all 200ms linear !important;
 }
 .prgoress_indicator:hover ::after {
-  color: #49AF45;
+  color: #A97735;
 }
 .prgoress_indicator:hover ::before {
   opacity: 1;
@@ -9489,7 +9491,7 @@ p.blog-list-desc {
   fill: none;
 }
 .prgoress_indicator svg.progress-circle path {
-  stroke:#49AF45;
+  stroke:#A97735;
   stroke-width: 4;
   box-sizing: border-box;
   transition: all 200ms linear !important;
@@ -9541,14 +9543,14 @@ p.blog-list-desc {
     margin-top: -200px;
     border-radius: 50%;
     text-align: center;
-    background-color: #49AF45;
+    background-color: #A97735;
     width: 70px;
     cursor: pointer;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    box-shadow: 0 0 10px #D09A40;
     border-bottom: 3px solid #fff;
     border-top: 3px solid #fff;
-    border-right: 3px solid #062462;
-    border-left: 3px solid #062462;
+    border-right: 3px solid #D09A40;
+    border-left: 3px solid #D09A40;
     -webkit-transition: all 500ms ease;
     height: 70px;
     line-height: 70px;
@@ -9604,7 +9606,7 @@ p.blog-list-desc {
     display:block;
     font-size:18px;
     line-height: 50px;
-    color:#000000;
+    color:#111111;
     height:70px;
     width:100%;
     padding: 10px 30px;
@@ -9627,7 +9629,7 @@ p.blog-list-desc {
     background: transparent;
     text-align: center;
     font-size: 24px;
-    color: #49AF45;
+    color: #AA8F00;
     padding: 0;
     cursor: pointer;
     -webkit-transition: all 500ms ease;
@@ -9636,7 +9638,7 @@ p.blog-list-desc {
 
 .search-popup .form-group input[type="submit"]:hover,
 .search-popup .form-group button:hover{
-    color: #000000;
+    color: #F6D784;
 }
 
 .search-popup input::placeholder,
@@ -9724,7 +9726,7 @@ button.close-search i {
 
 span.flaticon-multiply i {
     display: inline-block;
-    color: #49AF45;
+    color: #AA8F00;
 }
 
 

@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Echofy - Environmental HTML5 Template </title>
+	<title>Youth in Oil and Gas Summit Website </title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Favicon -->
@@ -337,15 +337,15 @@
 				<div class="about-right">
 					<div class="section-title left">
 						<h4><img src="front_end/assets/images/home/section-shape.png" alt="">About Echofy</h4>
-						<h1>Environmental Sustainable</h1>
-						<h1>Forever Green Future</h1>
+						<h1 style ="color: #001F3F">Environmental Sustainable</h1>
+						<h1 style ="color: #001F3F">Forever Green Future</h1>
 					</div>
 					<div class="single-about-box">
 						<div class="about-box-icon">
 							<img src="front_end/assets/images/home/about-icon-1.png" alt="">
 						</div>
 						<div class="about-box-content">
-							<h4>Economic Benifits</h4>
+							<h4 style ="color: #AA8F00">Economic Benifits</h4>
 							<p>Alternative innovation after ethical to network environmental
                              whiteboard transparent growth natural done</p>
 						</div>
@@ -355,7 +355,7 @@
 							<img src="front_end/assets/images/home/about-icon-2.png" alt="">
 						</div>
 						<div class="about-box-content">
-							<h4>Safe Environment</h4>
+							<h4 style ="color: #AA8F00">Safe Environment</h4>
 							<p>Alternative innovation after ethical to network environmental
                              whiteboard transparent growth natural done</p>
 						</div>
@@ -390,8 +390,8 @@
 			<div class="col-lg-9">
 				<div class="section-title left">
 					<h4><img src="front_end/assets/images/home/section-shape.png" alt="">Our Services </h4>
-					<h1>Echofy Provide Environment</h1>
-					<h1>Best Leading Services</h1>
+					<h1 style ="color: #001F3F">Echofy Provide Environment</h1>
+					<h1 style ="color: #001F3F">Best Leading Services</h1>
 				</div>
 			</div>
 			<div class="col-lg-3"></div>
@@ -404,7 +404,7 @@
 							<div class="service-content-icon">
 								<img src="front_end/assets/images/home/service-icon1.png" alt="">
 							</div>
-							<h4>Cleaning Ocean</h4>
+							<h4 style ="color: #AA8F00">Cleaning Ocean</h4>
 							<p>Alternative innovation to ethical network environmental whiteboard transparenes natural to environment</p>
 						</div>
 						<div class="service-thumb">
@@ -421,7 +421,7 @@
 						<div class="service-content-icon">
 							<img src="front_end/assets/images/home/service-icon2.png" alt="">
 						</div>
-						<h4>Safe Environment</h4>
+						<h4 style ="color: #AA8F00">Safe Environment</h4>
 						<p>Alternative innovation to ethical network environmental whiteboard transparenes natural to environment</p>
 					</div>
 					<div class="service-thumb">
@@ -438,7 +438,7 @@
 						   <div class="service-content-icon">
 							  <img src="front_end/assets/images/home/service-icon3.png" alt="">
 						   </div>
-						  <h4>Dirty Recycling</h4>
+						  <h4 style ="color: #AA8F00">Dirty Recycling</h4>
 						   <p>Alternative innovation to ethical network environmental whiteboard transparenes natural to environment</p>
 					   </div>
 					    <div class="service-thumb">
@@ -455,7 +455,7 @@
 						<div class="service-content-icon">
 							<img src="front_end/assets/images/home/service-icon2.png" alt="">
 						</div>
-						<h4>Safe Environment</h4>
+						<h4 style ="color: #AA8F00">Safe Environment</h4>
 						<p>Alternative innovation to ethical network environmental whiteboard transparenes natural to environment</p>
 					</div>
 					<div class="service-thumb">
@@ -485,8 +485,8 @@
 			<div class="col-lg-6">
 				<div class="section-title left">
 					<h4><img src="front_end/assets/images/home/section-shape.png" alt="">Our Skills </h4>
-					<h1>Getting A Greener Future</h1>
-					<h1>Safe Environment</h1>
+					<h1 style ="color: #001F3F">Getting A Greener Future</h1>
+					<h1 style ="color: #001F3F">Safe Environment</h1>
 					<p class="section-desc">
 						Competently cultivate worldwide e-tailers through principle-centered value 
                         professionally engineer high-payoff deliverables without exceptional processes. 
@@ -622,8 +622,8 @@
 				<div class="process-left">
 					<div class="section-title left">
 						<h4><img src="front_end/assets/images/home/section-shape.png" alt="">Contact Us </h4>
-						<h1>Fresh Environmental</h1>
-						<h1>Plant & Safe Trees</h1>
+						<h1 style ="color: #001F3F">Fresh Environmental</h1>
+						<h1 style ="color: #001F3F">Plant & Safe Trees</h1>
 						<p class="section-desc">
 							Competently cultivate worldwide e-tailers through principle-centered value 
 	                        professionally engineer high-payoff deliverables without exceptional processes. 
@@ -657,8 +657,8 @@
 			<div class="col-lg-9">
 				<div class="section-title left">
 					<h4><img src="front_end/assets/images/home/section-shape.png" alt="">Our Projects </h4>
-					<h1>Finished the Latest Leading</h1>
-					<h1>Environmental Works</h1>
+					<h1 style ="color: #001F3F">Finished the Latest Leading</h1>
+					<h1 style ="color: #001F3F">Environmental Works</h1>
 				</div>
 			</div>
 		</div>
@@ -670,7 +670,7 @@
 							<img src="front_end/assets/images/home/project-1.jpg" alt="">
 						</div>
 						<div class="project-content">
-							<h4>Climate</h4>
+							<h4 style ="color: #AA8F00">Climate</h4>
 							<a href="#">Cleaning Forest</a>
 							<a class="project-button" href="#">View Details<i class="bi bi-arrow-right-short"></i></a>
 							<div class="project-shape">
@@ -685,7 +685,7 @@
 							<img src="front_end/assets/images/home/project-2.jpg" alt="">
 						</div>
 						<div class="project-content">
-							<h4>Environment</h4>
+							<h4 style ="color: #AA8F00">Environment</h4>
 							<a href="#">Climate Solutions</a>
 							<a class="project-button" href="#">View Details<i class="bi bi-arrow-right-short"></i></a>
 							<div class="project-shape">
@@ -700,7 +700,7 @@
 							<img src="front_end/assets/images/home/project-3.jpg" alt="">
 						</div>
 						<div class="project-content">
-							<h4>Recycling</h4>
+							<h4 style ="color: #AA8F00">Recycling</h4>
 							<a href="#">Plustic Recyclin</a>
 							<a class="project-button" href="#">View Details<i class="bi bi-arrow-right-short"></i></a>
 							<div class="project-shape">
@@ -715,7 +715,7 @@
 							<img src="front_end/assets/images/home/project-4.jpg" alt="">
 						</div>
 						<div class="project-content">
-							<h4>Climate</h4>
+							<h4 style ="color: #AA8F00">Climate</h4>
 							<a href="#">Ocean Cleaning</a>
 							<a class="project-button" href="#">View Details<i class="bi bi-arrow-right-short"></i></a>
 							<div class="project-shape">
@@ -757,8 +757,8 @@
 		<div class="row">
 			<div class="col-lg-12 text-center">
 				<div class="section-title center">
-					<h4><img src="front_end/assets/images/home/section-shape.png" alt="">Working Process</h4>
-					<h1>Building a Greener Future</h1>
+					<h4 style ="color: #AA8F00"><img src="front_end/assets/images/home/section-shape.png" alt="">Working Process</h4>
+					<h1 style ="color: #001F3F">Building a Greener Future</h1>
 				</div>
 			</div>
 		</div>
@@ -769,7 +769,7 @@
 						<img src="front_end/assets/images/home/process-two-icon1.png" alt="">
 					</div>
 					<div class="process-two-content">
-						<h4>Sustain Solutions</h4>
+						<h4 style ="color: #AA8F00">Sustain Solutions</h4>
 						<p>Proactively drive maintainable value next
 	                      mission-critical infrastructures eggplant
 	                      new environmental nature
@@ -783,7 +783,7 @@
 						<img src="front_end/assets/images/home/process-two-icon2.png" alt="">
 					</div>
 					<div class="process-two-content">
-						<h4>Renewable Energy</h4>
+						<h4 style ="color: #AA8F00">Renewable Energy</h4>
 						<p>Proactively drive maintainable value next
 	                      mission-critical infrastructures eggplant
 	                      new environmental nature
@@ -797,7 +797,7 @@
 						<img src="front_end/assets/images/home/process-two-icon3.png" alt="">
 					</div>
 					<div class="process-two-content">
-						<h4>Fresh Environment</h4>
+						<h4 style ="color: #AA8F00">Fresh Environment</h4>
 						<p>Proactively drive maintainable value next
 	                      mission-critical infrastructures eggplant
 	                      new environmental nature
@@ -822,9 +822,9 @@
 		<div class="row">
 			<div class="col-lg-12 text-center">
 				<div class="section-title center">
-					<h4><img src="front_end/assets/images/home/section-shape.png" alt="">Testimonials</h4>
-					<h1>Clients Best Feedback About</h1>
-					<h1>Echofy Provission</h1>
+					<h4 style ="color: #AA8F00"><img src="front_end/assets/images/home/section-shape.png" alt="">Testimonials</h4>
+					<h1 style ="color: #001F3F">Clients Best Feedback About</h1>
+					<h1 style ="color: #001F3F">Echofy Provission</h1>
 				</div>
 			</div>
 		</div>
@@ -981,8 +981,8 @@
 		<div class="row">
 		   <div class="col-lg-12 text-center">
 				<div class="section-title center">
-					<h4><img src="front_end/assets/images/home/section-shape.png" alt="">Our Team</h4>
-					<h1>Meet Our Dedicated Members</h1>
+					<h4 style ="color: #AA8F00"><img src="front_end/assets/images/home/section-shape.png" alt="">Our Team</h4>
+					<h1 style ="color: #001F3F">Meet Our Dedicated Members</h1>
 				</div>
 			</div>
 		</div>
@@ -993,7 +993,7 @@
 						<img src="front_end/assets/images/home/team-1.png" alt="">
 					</div>
 					<div class="team-content">
-						<h4>Connie Diaz</h4>
+						<h4 style ="color: #AA8F00">Connie Diaz</h4>
 						<p>CEO & Founder</p>
 						<div class="team-social-icon">
 							<ul>
@@ -1012,7 +1012,7 @@
 						<img src="front_end/assets/images/home/team-2.png" alt="">
 					</div>
 					<div class="team-content">
-						<h4>James E. Huey</h4>
+						<h4 style ="color: #AA8F00">James E. Huey</h4>
 						<p>Co Founder</p>
 						<div class="team-social-icon">
 							<ul>
@@ -1031,7 +1031,7 @@
 						<img src="front_end/assets/images/home/team-3.png" alt="">
 					</div>
 					<div class="team-content">
-						<h4>June D. Vargas</h4>
+						<h4 style ="color: #AA8F00">June D. Vargas</h4>
 						<p>Environmental</p>
 						<div class="team-social-icon">
 							<ul>
@@ -1062,8 +1062,8 @@
 			<div class="col-lg-8">
 				<div class="section-title left">
 					<h4><img src="front_end/assets/images/home/section-shape.png" alt="">Latest Blog </h4>
-					<h1>Building a Greener Future</h1>
-					<h1>Together Forever</h1>
+					<h1 style ="color: #001F3F">Building a Greener Future</h1>
+					<h1 style ="color: #001F3F">Together Forever</h1>
 				</div>
 			</div>
 			<div class="col-lg-4">
