@@ -59,15 +59,15 @@
 			<div class="col-lg-6 col-md-6">
 				<div class="top-header-info">
 					<ul>
-						<li><i class="bi bi-geo-alt"></i>New market Sandigo - California</li>
-						<li><i class="bi bi-envelope-open"></i> example@gmail.com</li>
+						<li><i class="bi bi-geo-alt"></i>Meersig-Walvis Bay</li>
+						<li><i class="bi bi-envelope-open"></i>info@yiogs.com.na</li>
 					</ul>
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-6">
 				<div class="top-header-right">
 					<div class="top-header-contact">
-						<span><i class="bi bi-telephone-fill"></i>+123 (4567) 890</span>
+						<span><i class="bi bi-telephone-fill"></i>+264 81 216 5752</span>
 					</div>
 					<div class="top-header-social-icon">
 						<ul>
@@ -96,22 +96,37 @@
 		<div class="row align-items-center">
 			<div class="col-lg-3">
 				<div class="header-logo">
-					<a href="index.html"><img src="front_end/assets/images/home/logo.svg" alt="logo"></a>
+					<a href="index.blade.php"><img src="front_end/assets/images/home/logo.svg" alt="logo"></a>
 				</div>
 			</div>
 			<div class="col-lg-9">
 				<div class="header-menu">
 					<ul>
-						<li class="menu-item-has-children"><a href="#">Home</a>
-						</li>
-						<li><a href="about.html">About</a></li>
-						<li class="menu-item-has-children"><a href="#">Service<i class="fas fa-chevron-down"></i></a>
+						<li class="menu-item-has-children"><a href="#">About Us <i class="fas fa-chevron-down"></i></a>
+						   <ul class="sub-menu">
+					      	  <li><a href="#">Why Walvis Bay?</a></li>
+							  <li><a href="#">Why Now?</a></li>
+							  <li><a href="#">Welcome</a></li>
+							  <li><a href="#">Advisory Board</a></li>
+						   </ul>
+					    </li>
+                        <li><a href="#">Sponser/Exhibit</a></li>
+						<li class="menu-item-has-children"><a href="#">Programme<i class="fas fa-chevron-down"></i></a>
                            <ul class="sub-menu">
-					      	  <li><a href="service.html">Service</a></li>
-					      	  <li><a href="service-details.html">Service Details</a></li>
+					      	  <li><a href="#">Schedule</a></li>
+					      	  <li><a href="#">Call for Papers</a></li>
 						   </ul>
 						</li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="#">Partners</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">2025 Recap</a></li>
+						<li class="menu-item-has-children"><a href="#">Programme<i class="fas fa-chevron-down"></i></a>
+                           <ul class="sub-menu">
+					      	  <li><a href="#">Gallery</a></li>
+					      	  <li><a href="#">Post-Event Report</a></li>
+							  <li><a href="#">2025 info</a></li>
+						   </ul>
+						</li>
 					</ul>
 					<div class="header-secrch-icon search-box-outer">
 						<a href="#"><i class="bi bi-search"></i></a>
@@ -138,18 +153,12 @@
 	<div class="mobile-menu">
 		<nav class="header-menu">
 			<ul class="nav_scroll">
-				<li class="menu-item-has-children"><a href="#">Home</a>
-                   <ul class="sub-menu">
-			      	  <li><a href="index.html">Home 1</a></li>
-			      	  <li><a href="index-2.html">Home 2</a></li>
-			      	  <li><a href="index-3.html">Home 3</a></li>
-			      	  <li><a href="index-4.html">Home 4</a></li>
-			      	  <li><a href="index-5.html">Home 5</a></li>
-			      	  <li><a href="index-6.html">Home 6</a></li>
-			      	  <li><a href="index-7.html">Home 7</a></li>
-				   </ul>
+				<li class="menu-item-has-children"><a href="index.blade.php">Home</a>
 				</li>
-				<li><a href="about.html">About</a></li>
+				<li class="menu-item-has-children"><a href="#">About YIOGS<i class="fas fa-chevron-down"></i></a>
+				   <ul class="sub-menu">
+			      	  <li><a href="about.html">Why Walvis Bay?</a></li>	
+			    </li>
 				<li class="menu-item-has-children"><a href="#">Service</a>
                    <ul class="sub-menu">
 			      	  <li><a href="service.html">Service</a></li>
@@ -199,18 +208,17 @@
 			<div class="row align-items-center">
 				<div class="col-lg-12">
 					<div class="hero-content">
-						<h4 class="sub-title" data-animation="fadeInUp" data-delay="100ms">Natural Environment</h4>
-						<h1 class="main-title" data-animation="fadeInUp" data-delay="400ms">Be Safe Controls</h1>
-						<h1 class="main-title-2" data-animation="fadeInUp" data-delay="600ms" data-duration="1000ms">Environment</h1>
-						<p class="hero-desc" data-animation="fadeInUp" data-delay="800ms" data-duration="1000ms">Professionally optimize interdependent intellectual interoperable connect best practices. Progressively  
-						 fabricate done</p>
+						<h4 class="sub-title" data-animation="fadeInUp" data-delay="100ms">Drilling into the Future</h4>
+						<h1 class="main-title" data-animation="fadeInUp" data-delay="400ms">Youth in Oil & Gas Summit</h1>
+						<h1 class="main-title-2" data-animation="fadeInUp" data-delay="600ms" data-duration="1000ms">2026</h1>
+						<p class="hero-desc" data-animation="fadeInUp" data-delay="800ms" data-duration="1000ms">Namibia’s 11-Billion Barrel Revolution is Here. Join 800+ Future Leaders and Industry Titans at the Premier Summit Driving the Future of African Energies!</p>
 					</div>
 					<div class="echofy-button" data-animation="fadeInUp" data-delay="1000ms">
-						<a href="#">Let’s Talk <img src="front_end/assets/images/home/button-shape.png" alt=""></a>
+						<a href="#">Let’s Talk></a>
 						<img class="two" src="front_end/assets/images/home/button-shape-2.png" alt="">
 					</div>		
 					<div class="echofy-button two" data-animation="fadeInUp" data-delay="1200ms">
-						<a href="#">Read More</a>
+						<a href="#">Become a partner</a>
 					</div>
 				</div>
 			</div>
@@ -229,18 +237,17 @@
 			<div class="row align-items-center">
 				<div class="col-lg-12">
 					<div class="hero-content">
-						<h4 class="sub-title" data-animation="fadeInUp" data-delay="100ms">Natural Environment</h4>
-						<h1 class="main-title" data-animation="fadeInUp" data-delay="400ms">Be Safe Controls</h1>
-						<h1 class="main-title-2" data-animation="fadeInUp" data-delay="600ms">Environment</h1>
-						<p class="hero-desc" data-animation="fadeInUp" data-delay="800ms">Professionally optimize interdependent intellectual interoperable connect best practices. Progressively  
-						 fabricate done</p>
+						<h4 class="sub-title" data-animation="fadeInUp" data-delay="100ms">Drilling into the Future</h4>
+						<h1 class="main-title" data-animation="fadeInUp" data-delay="400ms">Youth in Oil & Gas Summit</h1>
+						<h1 class="main-title-2" data-animation="fadeInUp" data-delay="600ms">2026</h1>
+						<p class="hero-desc" data-animation="fadeInUp" data-delay="800ms">Namibia’s 11-Billion Barrel Revolution is Here. Join 800+ Future Leaders and Industry Titans at the Premier Summit Driving the Future of African Energies!</p>
 					</div>
 					<div class="echofy-button" data-animation="fadeInUp" data-delay="1000ms">
-						<a href="about.html">Let’s Talk  <img src="front_end/assets/images/home/button-shape.png" alt=""></a>
+						<a href="about.html">Let’s Talk></a>
 						<img class="two" src="front_end/assets/images/home/button-shape-2.png" alt="">
 					</div>		
 					<div class="echofy-button two" data-animation="fadeInUp" data-delay="1200ms">
-						<a href="#">Read More</a>
+						<a href="#">Become a partner</a>
 					</div>
 				</div>
 			</div>
@@ -270,45 +277,57 @@
 			<div class="marquee-block"> 
 				<!-- content-box -->
 				<div class="content-box">
-					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">Environmental</span></h6>
+					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">YOUTH</span></h6>
+				</div>
+				<div class="content-box">
+					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">IN</span></h6>
 				</div>
 				<!-- content-box -->
 				<div class="content-box">
-					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">Ocean-Recycling</span></h6>
+					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">OIL</span></h6>
+				</div>
+				<div class="content-box">
+					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">&</span></h6>
 				</div>
 				<!-- content-box -->
 				<div class="content-box">
-					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">Environmental</span></h6>
+					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">GAS</span></h6>
 				</div>
 				<!-- content-box -->
 				<div class="content-box">
-					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">Renewable-Energy</span></h6>
+					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">SUMMIT</span></h6>
 				</div>
 				<!-- content-box -->
 				<div class="content-box">
-					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">Ocean-Recycling</span></h6>
+					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">2026</span></h6>
 				</div>
 			</div>
 			<div class="marquee-block"> 
 				<!-- content-box -->
 				<div class="content-box">
-					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">Environmental</span></h6>
+					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">YOUTH</span></h6>
+				</div>
+				<div class="content-box">
+					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">IN</span></h6>
 				</div>
 				<!-- content-box -->
 				<div class="content-box">
-					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">Ocean-Recycling</span></h6>
+					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">OIL</span></h6>
+				</div>
+				<div class="content-box">
+					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">&</span></h6>
 				</div>
 				<!-- content-box -->
 				<div class="content-box">
-					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">Environmental</span></h6>
+					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">GAS</span></h6>
 				</div>
 				<!-- content-box -->
 				<div class="content-box">
-					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">Renewable-Energy</span></h6>
+					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">SUMMIT</span></h6>
 				</div>
 				<!-- content-box -->
 				<div class="content-box">
-					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">Ocean-Recycling</span></h6>
+					<h6 class="title"><span><img src="front_end/assets/images/home/text-shape.png" alt="">2026</span></h6>
 				</div>
 			</div>
 	  	</div>
@@ -330,30 +349,24 @@
 			<div class="col-lg-6">
 				<div class="about-thumb">
 					<img src="front_end/assets/images/home/about-thumb.png" alt="">
-					<img class="about-thumb-shape" src="front_end/assets/images/home/about-award.png" alt="">
 				</div>
 			</div>
 			<div class="col-lg-6">
 				<div class="about-right">
 					<div class="section-title left">
-						<h4><img src="front_end/assets/images/home/section-shape.png" alt="">About Echofy</h4>
+						<h4>About Echofy</h4>
 						<h1 style ="color: #001F3F">Environmental Sustainable</h1>
 						<h1 style ="color: #001F3F">Forever Green Future</h1>
 					</div>
 					<div class="single-about-box">
-						<div class="about-box-icon">
-							<img src="front_end/assets/images/home/about-icon-1.png" alt="">
-						</div>
+						
 						<div class="about-box-content">
 							<h4 style ="color: #AA8F00">Economic Benifits</h4>
-							<p>Alternative innovation after ethical to network environmental
+							<p> Alternative innovation after ethical to network environmental
                              whiteboard transparent growth natural done</p>
 						</div>
 					</div>					
 					<div class="single-about-box">
-						<div class="about-box-icon">
-							<img src="front_end/assets/images/home/about-icon-2.png" alt="">
-						</div>
 						<div class="about-box-content">
 							<h4 style ="color: #AA8F00">Safe Environment</h4>
 							<p>Alternative innovation after ethical to network environmental
@@ -361,15 +374,9 @@
 						</div>
 					</div>
 					<div class="echofy-button">
-						<a href="about.html">More About <img src="front_end/assets/images/home/button-shape.png" alt=""></a>
+						<a href="about.html">More About</a>
 						<img class="two" src="front_end/assets/images/home/button-shape-2.png" alt="">
 					</div>	
-                    <div class="about-shape-1">
-                    	<img src="front_end/assets/images/home/about-shape-1.png" alt="">
-                    </div>                   
-                    <div class="about-shape-2">
-                    	<img src="front_end/assets/images/home/about-shape-2.png" alt="">
-                    </div>
 				</div>
 			</div>
 		</div>
@@ -389,7 +396,7 @@
 		<div class="row">
 			<div class="col-lg-9">
 				<div class="section-title left">
-					<h4><img src="front_end/assets/images/home/section-shape.png" alt="">Our Services </h4>
+					<h4>Our Services </h4>
 					<h1 style ="color: #001F3F">Echofy Provide Environment</h1>
 					<h1 style ="color: #001F3F">Best Leading Services</h1>
 				</div>
@@ -401,68 +408,44 @@
 			   <div class="col-lg-12">
 					<div class="single-service-box">
 						<div class="service-content">
-							<div class="service-content-icon">
-								<img src="front_end/assets/images/home/service-icon1.png" alt="">
-							</div>
 							<h4 style ="color: #AA8F00">Cleaning Ocean</h4>
 							<p>Alternative innovation to ethical network environmental whiteboard transparenes natural to environment</p>
 						</div>
 						<div class="service-thumb">
 							<img src="front_end/assets/images/home/service-1.jpg" alt="">
 						</div>
-						<div class="service-box-shape">
-							<img src="front_end/assets/images/home/service-box-shape.png" alt="">
-						</div>
 					</div>
 			   </div>			  
 			    <div class="col-lg-12">
 				  <div class="single-service-box">
 					<div class="service-content">
-						<div class="service-content-icon">
-							<img src="front_end/assets/images/home/service-icon2.png" alt="">
-						</div>
 						<h4 style ="color: #AA8F00">Safe Environment</h4>
 						<p>Alternative innovation to ethical network environmental whiteboard transparenes natural to environment</p>
 					</div>
 					<div class="service-thumb">
 						<img src="front_end/assets/images/home/service-2.jpg" alt="">
-					</div>
-					<div class="service-box-shape">
-						<img src="front_end/assets/images/home/service-box-shape.png" alt="">
 					</div>
 				  </div>
 			    </div>		  
 			    <div class="col-lg-12">
 				   <div class="single-service-box">
 					  <div class="service-content">
-						   <div class="service-content-icon">
-							  <img src="front_end/assets/images/home/service-icon3.png" alt="">
-						   </div>
 						  <h4 style ="color: #AA8F00">Dirty Recycling</h4>
 						   <p>Alternative innovation to ethical network environmental whiteboard transparenes natural to environment</p>
 					   </div>
 					    <div class="service-thumb">
 						   <img src="front_end/assets/images/home/service-3.jpg" alt="">
 					    </div>
-					    <div class="service-box-shape">
-						    <img src="front_end/assets/images/home/service-box-shape.png" alt="">
-					    </div>
 				   </div>
 			    </div>
 			    <div class="col-lg-12">
 				  <div class="single-service-box">
 					<div class="service-content">
-						<div class="service-content-icon">
-							<img src="front_end/assets/images/home/service-icon2.png" alt="">
-						</div>
 						<h4 style ="color: #AA8F00">Safe Environment</h4>
 						<p>Alternative innovation to ethical network environmental whiteboard transparenes natural to environment</p>
 					</div>
 					<div class="service-thumb">
 						<img src="front_end/assets/images/home/service-2.jpg" alt="">
-					</div>
-					<div class="service-box-shape">
-						<img src="front_end/assets/images/home/service-box-shape.png" alt="">
 					</div>
 				  </div>
 			    </div>	
@@ -484,7 +467,7 @@
 		<div class="row align-items-center">
 			<div class="col-lg-6">
 				<div class="section-title left">
-					<h4><img src="front_end/assets/images/home/section-shape.png" alt="">Our Skills </h4>
+					<h4>Our Skills </h4>
 					<h1 style ="color: #001F3F">Getting A Greener Future</h1>
 					<h1 style ="color: #001F3F">Safe Environment</h1>
 					<p class="section-desc">
@@ -527,10 +510,7 @@
      		</div>
      		<div class="col-lg-6">
      			<div class="skills-thumb">
-     				<img src="front_end/assets/images/home/skill-thumb.png" alt="">
-     				<div class="skills-shape">
-     					<img src="front_end/assets/images/home/skill-shape-1.png" alt="">
-     				</div>     				
+     				<img src="front_end/assets/images/home/skill-thumb.png" alt="">    				
      				<div class="skills-shape-2">
      					<img src="front_end/assets/images/home/skill-shape-2.png" alt="">
      				</div>
@@ -554,9 +534,6 @@
 		<div class="row">
 		    <div class="col-lg-3 col-md-6 col-sm-6">
 		    	<div class="single-counter-box">
-		    		<div class="conuter-icon">
-		    			<img src="front_end/assets/images/home/counter-icon-1.png" alt="">
-		    		</div>
 		    		<div class="counter-content">
 		    			<h4 class="counter">100</h4>
 		    			<span>+</span>
@@ -566,9 +543,6 @@
 		    </div>		  
 		    <div class="col-lg-3 col-md-6 col-sm-6">
 		    	<div class="single-counter-box">
-		    		<div class="conuter-icon">
-		    			<img src="front_end/assets/images/home/counter-icon-2.png" alt="">
-		    		</div>
 		    		<div class="counter-content">
 		    			<h4 class="counter">960</h4>
 		    			<span>+</span>
@@ -578,9 +552,7 @@
 		    </div>		   
 		    <div class="col-lg-3 col-md-6 col-sm-6">
 		    	<div class="single-counter-box">
-		    		<div class="conuter-icon">
-		    			<img src="front_end/assets/images/home/counter-icon-3.png" alt="">
-		    		</div>
+
 		    		<div class="counter-content">
 		    			<h4 class="counter">38</h4>
 		    			<p>Award Wining</p>
@@ -589,9 +561,6 @@
 		    </div>		   
 		    <div class="col-lg-3 col-md-6 col-sm-6">
 		    	<div class="single-counter-box">
-		    		<div class="conuter-icon">
-		    			<img src="front_end/assets/images/home/counter-icon-4.png" alt="">
-		    		</div>
 		    		<div class="counter-content">
 		    			<h4 class="counter">4.7</h4>
 		    			<p>Avg Ratings</p>
@@ -621,7 +590,7 @@
 			<div class="col-lg-6 col-md-12">
 				<div class="process-left">
 					<div class="section-title left">
-						<h4><img src="front_end/assets/images/home/section-shape.png" alt="">Contact Us </h4>
+						<h4>Contact Us </h4>
 						<h1 style ="color: #001F3F">Fresh Environmental</h1>
 						<h1 style ="color: #001F3F">Plant & Safe Trees</h1>
 						<p class="section-desc">
@@ -631,12 +600,9 @@
 						</p>
 					</div>
 					<div class="echofy-button">
-						<a href="contact.html">Contact Us <img src="front_end/assets/images/home/button-shape.png" alt=""></a>
+						<a href="contact.html">Contact Us</a>
 						<img class="two" src="front_end/assets/images/home/button-shape-2.png" alt="">
 					</div>
-					<div class="process-shape">
-	                     <img src="front_end/assets/images/home/about-shape-2.png" alt="">
-	                </div>
 				</div>
 			</div>
 		</div>
@@ -656,7 +622,7 @@
 		<div class="row">
 			<div class="col-lg-9">
 				<div class="section-title left">
-					<h4><img src="front_end/assets/images/home/section-shape.png" alt="">Our Projects </h4>
+					<h4>Our Projects </h4>
 					<h1 style ="color: #001F3F">Finished the Latest Leading</h1>
 					<h1 style ="color: #001F3F">Environmental Works</h1>
 				</div>
@@ -673,9 +639,6 @@
 							<h4 style ="color: #AA8F00">Climate</h4>
 							<a href="#">Cleaning Forest</a>
 							<a class="project-button" href="#">View Details<i class="bi bi-arrow-right-short"></i></a>
-							<div class="project-shape">
-								<img src="front_end/assets/images/home/project-shape.png" alt="">
-							</div>
 						</div>
 					</div>
 				</div>				
@@ -688,9 +651,6 @@
 							<h4 style ="color: #AA8F00">Environment</h4>
 							<a href="#">Climate Solutions</a>
 							<a class="project-button" href="#">View Details<i class="bi bi-arrow-right-short"></i></a>
-							<div class="project-shape">
-								<img src="front_end/assets/images/home/project-shape.png" alt="">
-							</div>
 						</div>
 					</div>
 				</div>				
@@ -703,9 +663,6 @@
 							<h4 style ="color: #AA8F00">Recycling</h4>
 							<a href="#">Plustic Recyclin</a>
 							<a class="project-button" href="#">View Details<i class="bi bi-arrow-right-short"></i></a>
-							<div class="project-shape">
-								<img src="front_end/assets/images/home/project-shape.png" alt="">
-							</div>
 						</div>
 					</div>
 				</div>				
@@ -757,7 +714,7 @@
 		<div class="row">
 			<div class="col-lg-12 text-center">
 				<div class="section-title center">
-					<h4 style ="color: #AA8F00"><img src="front_end/assets/images/home/section-shape.png" alt="">Working Process</h4>
+					<h4 style ="color: #AA8F00">Working Process</h4>
 					<h1 style ="color: #001F3F">Building a Greener Future</h1>
 				</div>
 			</div>
@@ -765,9 +722,6 @@
 		<div class="row">
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="single-process-box-two style-one">
-					<div class="process-icon-thumb-two">
-						<img src="front_end/assets/images/home/process-two-icon1.png" alt="">
-					</div>
 					<div class="process-two-content">
 						<h4 style ="color: #AA8F00">Sustain Solutions</h4>
 						<p>Proactively drive maintainable value next
@@ -779,9 +733,6 @@
 			</div>			
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="single-process-box-two">
-					<div class="process-icon-thumb-two">
-						<img src="front_end/assets/images/home/process-two-icon2.png" alt="">
-					</div>
 					<div class="process-two-content">
 						<h4 style ="color: #AA8F00">Renewable Energy</h4>
 						<p>Proactively drive maintainable value next
@@ -793,9 +744,6 @@
 			</div>			
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="single-process-box-two style-three">
-					<div class="process-icon-thumb-two">
-						<img src="front_end/assets/images/home/process-two-icon3.png" alt="">
-					</div>
 					<div class="process-two-content">
 						<h4 style ="color: #AA8F00">Fresh Environment</h4>
 						<p>Proactively drive maintainable value next

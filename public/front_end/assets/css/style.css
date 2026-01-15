@@ -110,28 +110,27 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 ==================================---*/
 
 .header-area {
-    border-bottom: 1px solid #A97735;
-    z-index: 9;
-    position: relative;
-    margin-bottom: -143px;
+    align-items: center;
+    justify-content: flex-start;
+    height: 110px;
+    padding: 0 40px;
 }
 
 .header-menu {
-    text-align: right;
-}
-
-.header-menu ul li {
-    display: inline-block;
-   margin-right: 57px;
-}
-
-.header-menu ul li:last-child {
-    margin-right: 50px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-menu ul {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: 30px;
+    margin-right: 40px;
 }
+
 
 .header-menu ul li a {
     display: inline-block;
@@ -154,8 +153,10 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     top: 0px;
 }
 
-.header-secrch-icon {
-    display: inline-block;
+.header-secrch-icon{
+    margin-left: auto; 
+    display: flex;
+    align-items: center;
 }
 
 .header-secrch-icon i {
@@ -164,22 +165,24 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     font-size: 16px;
     cursor: pointer;
 }
-
 .header-button {
-    display: inline-block;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .header-button a {
     display: inline-block;
     background: #A97735;
-    padding: 11px 26px;
+    padding: 12px 22px;
     color: #fff;
     font-weight: 500;
     border-radius: 5px;
-    margin-left: 36px;
+    margin-left: 20px;
     position: relative;
     z-index: 1;
     transition: 0.5s;
+    white-space: nowrap;
 }
 
 .header-button a:hover{
@@ -290,6 +293,19 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     top: 0;
 }
 
+.header-logo {
+    position: relative;
+    z-index: 20;
+    margin-left: -20px;
+}
+
+
+.header-logo img {
+    display: block;
+    max-height: 70px;
+    width: auto;
+}
+
 
 
 
@@ -301,9 +317,12 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 950px;
-    padding-top: 125px;
+    height: 800px;
     position: relative;
+}
+
+.hero-content {
+    margin-top: -30px;
 }
 
 .hero-style.hero-area{
@@ -340,7 +359,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 .hero-social-icon {
     position: absolute;
     left: 85px;
-    top: 41%;
+    top: 30%;
 }
 
 .hero-social-icon ul li i {
@@ -1128,9 +1147,10 @@ span.number {
    <!--Echofy Counter Area Css-->
 ==================================---*/
 .counter-area {
-    background: url(../images/home/counter-bg.jpg);
+    background-color: #a87634;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
+    background-position: center;
     padding: 80px 0 150px;
 }
 
@@ -1382,7 +1402,6 @@ a.project-button:hover i{
     height: 100%;
     right: 84px;
     top: 98px;
-    background: url(../images/home/process-two-shape-1.png);
     background-repeat: no-repeat;
 }
 
@@ -1391,7 +1410,6 @@ a.project-button:hover i{
 }
 
 .single-process-box-two.style-three:before{
-    background: url(../images/home/process-two-shape-2.png);
     background-repeat: no-repeat;
 }
 
