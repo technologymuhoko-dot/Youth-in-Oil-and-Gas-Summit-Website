@@ -179,9 +179,7 @@
 									//hide mean-nav ul
 									jQuery('.mean-nav ul').hide();
 
-									// hide sub nav
 									if(meanShowChildren) {
-											// allow expandable sub nav(s)
 											if(meanExpandableChildren){
 												jQuery('.mean-nav ul ul').each(function() {
 														if(jQuery(this).children().length){
@@ -206,9 +204,8 @@
 											jQuery('.mean-nav ul ul').hide();
 									}
 
-									// add last class to tidy up borders
 									jQuery('.mean-nav ul li').last().addClass('mean-last');
-									$navreveal = jQuery('.meanmenu-reveal'); // Grab the element
+									$navreveal = jQuery('.meanmenu-reveal');
 $navreveal.removeClass("meanclose");
 $navreveal.html(meanMenuOpen);       
 
@@ -216,15 +213,15 @@ $navreveal.off('click').on('click', function(e){
     e.preventDefault();
 
     if(menuOn === false){
-        jQuery('.mean-nav ul:first').slideDown(); // show menu
+        jQuery('.mean-nav ul:first').slideDown();
         menuOn = true;
-        jQuery(this).html(meanMenuClose);        // show X
-        jQuery(this).addClass('meanclose');      // add class for CSS styling
+        jQuery(this).html(meanMenuClose);       
+        jQuery(this).addClass('meanclose');     
     } else {
-        jQuery('.mean-nav ul:first').slideUp();  // hide menu
+        jQuery('.mean-nav ul:first').slideUp();  
         menuOn = false;
-        jQuery(this).html(meanMenuOpen);         // show hamburger
-        jQuery(this).removeClass('meanclose');   // remove class
+        jQuery(this).html(meanMenuOpen);         
+        jQuery(this).removeClass('meanclose');   
     }
 });
 

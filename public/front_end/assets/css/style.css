@@ -872,18 +872,17 @@ p.section-desc {
     margin: 26px 0 0;
 }
 
-/* --- About/Skill/Team Responsive --- */
 @media (max-width: 768px) {
   .about-thumb {
-    position: relative; /* remove absolute offsets */
+    position: relative; 
     left: 0;
     top: 0;
-    margin: 0 auto;     /* center images */
+    margin: 0 auto;     
   }
 
   .about-right {
-    text-align: center; /* center text */
-    margin-top: 20px;   /* spacing below images */
+    text-align: center; 
+    margin-top: 20px; 
   }
 }
 
@@ -1047,14 +1046,13 @@ p.section-desc {
     color:#fff;
 }
 
-/* --- Project/Service Carousel Responsive Arrows --- */
 @media (max-width: 768px) {
   .service-area .owl-prev,
   .service-area .owl-next {
-    top: auto;      /* override absolute top */
-    bottom: 10px;   /* place below carousel */
-    right: 10px;    /* horizontal alignment */
-    left: auto;     /* reset left */
+    top: auto;      
+    bottom: 10px;  
+    right: 10px;    
+    left: auto;   
   }
 
   .service-area .owl-prev i,
