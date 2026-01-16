@@ -4847,6 +4847,8 @@ h4.blog-details-title {
 
 
 
+
+
 /* Mobile Devices :320px. */
 @media (min-width: 320px) and (max-width: 479px) {
 
@@ -4856,16 +4858,20 @@ h4.blog-details-title {
 }
 
 .header-area {
-    display: none;
+    display: none !important;
 }
 
 .sticky {
-    position: absolute !important;
+    position: none !important;
 }
 
 .hero-area {
-    height: 740px;
-    padding-top: 57px;
+    min-height: 100vh;      
+    height: auto;
+    padding: 0 20px;   
+    display: flex;
+    align-items: center;
+
 }
 
 .hero-content h1 {

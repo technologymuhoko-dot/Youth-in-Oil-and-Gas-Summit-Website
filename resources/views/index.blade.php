@@ -74,7 +74,7 @@
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
 							<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-							<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -119,8 +119,7 @@
 						</li>
 						<li><a href="#">Partners</a></li>
 						<li><a href="#">Contact Us</a></li>
-						<li><a href="#">2025 Recap</a></li>
-						<li class="menu-item-has-children"><a href="#">Programme<i class="fas fa-chevron-down"></i></a>
+						<li class="menu-item-has-children"><a href="#">2025 Recap<i class="fas fa-chevron-down"></i></a>
                            <ul class="sub-menu">
 					      	  <li><a href="#">Gallery</a></li>
 					      	  <li><a href="#">Post-Event Report</a></li>
@@ -157,37 +156,28 @@
 				</li>
 				<li class="menu-item-has-children"><a href="#">About YIOGS<i class="fas fa-chevron-down"></i></a>
 				   <ul class="sub-menu">
-			      	  <li><a href="about.html">Why Walvis Bay?</a></li>	
+					  <li><a href="#">Why Walvis Bay?</a></li>
+					  <li><a href="#">Why Now?</a></li>
+					  <li><a href="#">Welcome</a></li>
+					  <li><a href="#">Advisory Board</a></li>
+					</ul>
 			    </li>
-				<li class="menu-item-has-children"><a href="#">Service</a>
-                   <ul class="sub-menu">
-			      	  <li><a href="service.html">Service</a></li>
-			      	  <li><a href="service-details.html">Service Details</a></li>
-				   </ul>
+				<li><a href="#">Sponser/Exhibit</a></li>
+				<li class="menu-item-has-children"><a href="#">Programme<i class="fas fa-chevron-down"></i></a>
+                    <ul class="sub-menu">
+				      <li><a href="#">Schedule</a></li>
+					  <li><a href="#">Call for Papers</a></li>
+					</ul>
 				</li>
-				<li class="menu-item-has-children"><a href="#">Pages</a>
-                   <ul class="sub-menu">
-			      	  <li><a href="about.html">About</a></li>
-			      	  <li><a href="service.html">Service</a></li>
-			      	  <li><a href="service-details.html">Service Details</a></li>
-			      	  <li><a href="project.html">Project</a></li>
-			      	  <li><a href="project-details.html">Project Details</a></li>
-			      	  <li><a href="donation.html">Donation</a></li>
-			      	  <li><a href="donation-details.html">Donation Details</a></li>
-			      	  <li><a href="team.html">Team</a></li>
-			      	  <li><a href="faqs.html">Faqs</a></li>
-			      	  <li><a href="testimonial.html">Testimonial</a></li>
-				   </ul>
+				<li><a href="#">Partners</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li class="menu-item-has-children"><a href="#">2025 Recap<i class="fas fa-chevron-down"></i></a>
+                    <ul class="sub-menu">
+					  <li><a href="#">Gallery</a></li>
+					  <li><a href="#">Post-Event Report</a></li>
+					  <li><a href="#">2025 info</a></li>
+					</ul>
 				</li>
-				<li class="menu-item-has-children"><a href="#">Blog</a>
-                   <ul class="sub-menu">
-			      	  <li><a href="blog-grid.html">Blog Grid</a></li>
-			      	  <li><a href="blog-list.html">Blog List</a></li>
-			      	  <li><a href="blog-2column.html">Blog 2column</a></li>
-			      	  <li><a href="blog-details.html">Blog Details</a></li>
-				   </ul>
-				</li>
-				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -215,7 +205,6 @@
 					</div>
 					<div class="echofy-button" data-animation="fadeInUp" data-delay="1000ms">
 						<a href="#">Let’s Talk></a>
-						<img class="two" src="front_end/assets/images/home/button-shape-2.png" alt="">
 					</div>		
 					<div class="echofy-button two" data-animation="fadeInUp" data-delay="1200ms">
 						<a href="#">Become a partner</a>
@@ -228,6 +217,7 @@
 	            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
 				<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 				<li class="text">Follow Us</li>
 			</ul>
 		</div>
@@ -244,7 +234,6 @@
 					</div>
 					<div class="echofy-button" data-animation="fadeInUp" data-delay="1000ms">
 						<a href="about.html">Let’s Talk></a>
-						<img class="two" src="front_end/assets/images/home/button-shape-2.png" alt="">
 					</div>		
 					<div class="echofy-button two" data-animation="fadeInUp" data-delay="1200ms">
 						<a href="#">Become a partner</a>
@@ -355,8 +344,8 @@
 				<div class="about-right">
 					<div class="section-title left">
 						<h4>About Echofy</h4>
-						<h1 style ="color: #001F3F">Environmental Sustainable</h1>
-						<h1 style ="color: #001F3F">Forever Green Future</h1>
+						<h1 style ="color: #66461D">Environmental Sustainable</h1>
+						<h1 style ="color: #66461D">Forever Green Future</h1>
 					</div>
 					<div class="single-about-box">
 						
@@ -375,7 +364,7 @@
 					</div>
 					<div class="echofy-button">
 						<a href="about.html">More About</a>
-						<img class="two" src="front_end/assets/images/home/button-shape-2.png" alt="">
+						
 					</div>	
 				</div>
 			</div>
@@ -397,8 +386,8 @@
 			<div class="col-lg-9">
 				<div class="section-title left">
 					<h4>Our Services </h4>
-					<h1 style ="color: #001F3F">Echofy Provide Environment</h1>
-					<h1 style ="color: #001F3F">Best Leading Services</h1>
+					<h1 style ="color: #66461D">Echofy Provide Environment</h1>
+					<h1 style ="color: #66461D">Best Leading Services</h1>
 				</div>
 			</div>
 			<div class="col-lg-3"></div>
@@ -468,8 +457,8 @@
 			<div class="col-lg-6">
 				<div class="section-title left">
 					<h4>Our Skills </h4>
-					<h1 style ="color: #001F3F">Getting A Greener Future</h1>
-					<h1 style ="color: #001F3F">Safe Environment</h1>
+					<h1 style ="color: #66461D">Getting A Greener Future</h1>
+					<h1 style ="color: #66461D">Safe Environment</h1>
 					<p class="section-desc">
 						Competently cultivate worldwide e-tailers through principle-centered value 
                         professionally engineer high-payoff deliverables without exceptional processes. 
@@ -591,8 +580,8 @@
 				<div class="process-left">
 					<div class="section-title left">
 						<h4>Contact Us </h4>
-						<h1 style ="color: #001F3F">Fresh Environmental</h1>
-						<h1 style ="color: #001F3F">Plant & Safe Trees</h1>
+						<h1 style ="color: #66461D">Fresh Environmental</h1>
+						<h1 style ="color: #66461D">Plant & Safe Trees</h1>
 						<p class="section-desc">
 							Competently cultivate worldwide e-tailers through principle-centered value 
 	                        professionally engineer high-payoff deliverables without exceptional processes. 
@@ -601,7 +590,6 @@
 					</div>
 					<div class="echofy-button">
 						<a href="contact.html">Contact Us</a>
-						<img class="two" src="front_end/assets/images/home/button-shape-2.png" alt="">
 					</div>
 				</div>
 			</div>
@@ -623,8 +611,8 @@
 			<div class="col-lg-9">
 				<div class="section-title left">
 					<h4>Our Projects </h4>
-					<h1 style ="color: #001F3F">Finished the Latest Leading</h1>
-					<h1 style ="color: #001F3F">Environmental Works</h1>
+					<h1 style ="color: #66461D">Finished the Latest Leading</h1>
+					<h1 style ="color: #66461D">Environmental Works</h1>
 				</div>
 			</div>
 		</div>
@@ -675,9 +663,6 @@
 							<h4 style ="color: #AA8F00">Climate</h4>
 							<a href="#">Ocean Cleaning</a>
 							<a class="project-button" href="#">View Details<i class="bi bi-arrow-right-short"></i></a>
-							<div class="project-shape">
-								<img src="front_end/assets/images/home/project-shape.png" alt="">
-							</div>
 						</div>
 					</div>
 				</div>
@@ -715,7 +700,7 @@
 			<div class="col-lg-12 text-center">
 				<div class="section-title center">
 					<h4 style ="color: #AA8F00">Working Process</h4>
-					<h1 style ="color: #001F3F">Building a Greener Future</h1>
+					<h1 style ="color: #66461D">Building a Greener Future</h1>
 				</div>
 			</div>
 		</div>
@@ -770,9 +755,9 @@
 		<div class="row">
 			<div class="col-lg-12 text-center">
 				<div class="section-title center">
-					<h4 style ="color: #AA8F00"><img src="front_end/assets/images/home/section-shape.png" alt="">Testimonials</h4>
-					<h1 style ="color: #001F3F">Clients Best Feedback About</h1>
-					<h1 style ="color: #001F3F">Echofy Provission</h1>
+					<h4 style ="color: #AA8F00">Testimonials</h4>
+					<h1 style ="color: #66461D">Clients Best Feedback About</h1>
+					<h1 style ="color: #66461D">Echofy Provission</h1>
 				</div>
 			</div>
 		</div>
@@ -780,9 +765,6 @@
 			<div class="testimonial-list-1 owl-carousel">
 			    <div class="col-lg-12">
 				<div class="single-testimonial-box">
-					<div class="testi-qutoe">
-						<img src="front_end/assets/images/home/testi-quote.png" alt="">
-					</div>
 					<div class="testi-author">
 						<div class="testi-author-thumb">
 							<img src="front_end/assets/images/home/testi-author-1.png" alt="">
@@ -813,9 +795,6 @@
 			    </div>			    
 			    <div class="col-lg-12">
 				    <div class="single-testimonial-box">
-					<div class="testi-qutoe">
-						<img src="front_end/assets/images/home/testi-quote.png" alt="">
-					</div>
 					<div class="testi-author">
 						<div class="testi-author-thumb">
 							<img src="front_end/assets/images/home/testi-author-2.png" alt="">
@@ -847,21 +826,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="testi-shape">
-		<img src="front_end/assets/images/home/testi-shape.png" alt="">
-	</div>
-    <div class="testi-shape-tow">
-		<img src="front_end/assets/images/home/testi-shape-1.png" alt="">
-	</div>
-    <div class="testi-shape-three">
-		<img src="front_end/assets/images/home/testi-shape-2.png" alt="">
-	</div>
-	<div class="testi-shape-four">
-		<img src="front_end/assets/images/home/testi-shape-3.png" alt="">
-	</div>
-    <div class="testi-shape-five">
-		<img src="front_end/assets/images/home/testi-shape-4.png" alt="">
-	</div>
+
 </div>
 <!--==================================================-->
 <!-- Strat Echofy Testimonial Area-->
@@ -880,39 +845,7 @@
 					<h4>All over the world 100,000+ Customers</h4>
 				</div>
 			</div>
-			<div class="row">
-			    <div class="brand-list-1 owl-carousel">
-				   <div class="col-md-12">
-				   	   <div class="single-brand-box">
-				   	   	   <img src="front_end/assets/images/home/brand-1.png" alt="">
-				   	   </div>
-				   </div>				  
-				    <div class="col-md-12">
-				   	   <div class="single-brand-box">
-				   	   	   <img src="front_end/assets/images/home/brand-2.png" alt="">
-				   	   </div>
-				   </div>				   
-				   <div class="col-md-12">
-				   	   <div class="single-brand-box">
-				   	   	   <img src="front_end/assets/images/home/brand-1.png" alt="">
-				   	   </div>
-				   </div>				   
-				   <div class="col-md-12">
-				   	   <div class="single-brand-box">
-				   	   	   <img src="front_end/assets/images/home/brand-4.png" alt="">
-				   	   </div>
-				   </div>				   
-				    <div class="col-md-12">
-				   	   <div class="single-brand-box">
-				   	   	   <img src="front_end/assets/images/home/brand-5.png" alt="">
-				   	   </div>
-				   </div>
-			    </div>
-			</div>
 		</div>
-		<div class="single-shape">
-		   <img src="front_end/assets/images/home/brand-shape.png" alt="">
-	    </div>
 	</div>
 </div>
 <!--==================================================-->
@@ -929,8 +862,8 @@
 		<div class="row">
 		   <div class="col-lg-12 text-center">
 				<div class="section-title center">
-					<h4 style ="color: #AA8F00"><img src="front_end/assets/images/home/section-shape.png" alt="">Our Team</h4>
-					<h1 style ="color: #001F3F">Meet Our Dedicated Members</h1>
+					<h4 style ="color: #AA8F00">Our Team</h4>
+					<h1 style ="color: #66461D">Meet Our Dedicated Members</h1>
 				</div>
 			</div>
 		</div>
@@ -948,7 +881,7 @@
 								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
 								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-								<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -967,7 +900,7 @@
 								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
 								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-								<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -986,7 +919,7 @@
 								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
 								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-								<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -1009,15 +942,14 @@
 		<div class="row">
 			<div class="col-lg-8">
 				<div class="section-title left">
-					<h4><img src="front_end/assets/images/home/section-shape.png" alt="">Latest Blog </h4>
-					<h1 style ="color: #001F3F">Building a Greener Future</h1>
-					<h1 style ="color: #001F3F">Together Forever</h1>
+					<h4>Latest Blog </h4>
+					<h1 style ="color: #66461D">Building a Greener Future</h1>
+					<h1 style ="color: #66461D">Together Forever</h1>
 				</div>
 			</div>
 			<div class="col-lg-4">
 				<div class="echofy-button">
-					<a href="blog-grid.html">View All Blog <img src="front_end/assets/images/home/button-shape.png" alt=""></a>
-					<img class="two" src="front_end/assets/images/home/button-shape-2.png" alt="">
+					<a href="blog-grid.html">View All Blog</a>
 				</div>
 			</div>
 		</div>
@@ -1110,7 +1042,7 @@
 								    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 								    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
 								    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-								    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+								    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -1121,7 +1053,7 @@
 		<div class="row add-footer-class">
 			<div class="col-lg-3 col-md-6 col-sm-6">
 				<div class="footer-logo">
-					<a href="index.html"><img src="front_end/assets/images/home/logo.png" alt="logo"></a>
+					<a href="index.blade.php"><img src="front_end/assets/images/home/logo.svg" alt="logo"></a>
 				</div>
 				<p class="footer-desc">Proactively restore timely alignments after client environmentals</p>
 				<div class="footer-contect-info">
@@ -1129,8 +1061,8 @@
 						<h4>Contact</h4>
 					</div>
 					<ul>
-						<li><i class="bi bi-telephone-plus-fill"></i>+123 (4567) 890</li>
-						<li><i class="bi bi-envelope-open-fill"></i>example@gmail.com</li>
+						<li><i class="bi bi-telephone-plus-fill"></i>+264 81 216 5752</li>
+						<li><i class="bi bi-envelope-open-fill"></i>info@yiogs.com.na</li>
 					</ul>
 				</div>
 			</div>

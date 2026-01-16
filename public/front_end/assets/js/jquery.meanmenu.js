@@ -128,12 +128,13 @@
 
 						// re-instate original nav (and call this on window.width functions)
 						var meanOriginal = function() {
-							jQuery('.mean-bar,.mean-push').remove();
+							jQuery('.mean-nav').remove(); 
 							jQuery(meanContainer).removeClass("mean-container");
 							jQuery(meanMenu).css('display', meanDisplay);
 							menuOn = false;
 							meanMenuExist = false;
 							jQuery(removeElements).removeClass('mean-remove');
+							$navreveal.removeClass("meanclose").html(meanMenuOpen);
 						};
 
 						// navigation reveal
@@ -207,23 +208,26 @@
 
 									// add last class to tidy up borders
 									jQuery('.mean-nav ul li').last().addClass('mean-last');
-									$navreveal.removeClass("meanclose");
-									jQuery($navreveal).click(function(e){
-										e.preventDefault();
-								if( menuOn === false ) {
-												$navreveal.css("text-align", "center");
-												$navreveal.css("text-indent", "0");
-												$navreveal.css("font-size", meanMenuCloseSize);
-												jQuery('.mean-nav ul:first').slideDown();
-												menuOn = true;
-										} else {
-											jQuery('.mean-nav ul:first').slideUp();
-											menuOn = false;
-										}
-											$navreveal.toggleClass("meanclose");
-											meanInner();
-											jQuery(removeElements).addClass('mean-remove');
-									});
+									$navreveal = jQuery('.meanmenu-reveal'); // Grab the element
+$navreveal.removeClass("meanclose");
+$navreveal.html(meanMenuOpen);       
+
+$navreveal.off('click').on('click', function(e){
+    e.preventDefault();
+
+    if(menuOn === false){
+        jQuery('.mean-nav ul:first').slideDown(); // show menu
+        menuOn = true;
+        jQuery(this).html(meanMenuClose);        // show X
+        jQuery(this).addClass('meanclose');      // add class for CSS styling
+    } else {
+        jQuery('.mean-nav ul:first').slideUp();  // hide menu
+        menuOn = false;
+        jQuery(this).html(meanMenuOpen);         // show hamburger
+        jQuery(this).removeClass('meanclose');   // remove class
+    }
+});
+
 
 									// for one page websites, reset all variables...
 									if ( onePage ) {
