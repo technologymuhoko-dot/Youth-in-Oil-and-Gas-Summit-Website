@@ -16,7 +16,7 @@
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                     <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -27,7 +27,7 @@
         <div class="row add-footer-class">
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="footer-logo">
-                    <a href="index.html"><img src="front_end/assets/images/home/logo.png" alt="logo"></a>
+                    <a href="{{ url('/') }}"><img src="front_end/assets/images/home/logo.svg" alt="logo"></a>
                 </div>
                 <p class="footer-desc">Proactively restore timely alignments after client environmentals</p>
                 <div class="footer-contect-info">

@@ -1,30 +1,38 @@
 (function ($) {
     'use strict';
 
-    // Mobile Menu
-    $('.mobile-menu nav').meanmenu({
-        meanScreenWidth: "991",
-        meanMenuContainer: ".mobile-menu",
-        meanMenuOpen: "<span></span> <span></span> <span></span>",
-        onePage: false,
+    $(document).ready(function () {
+
+        // Mobile Menu
+        if ($.fn.meanmenu && $('.mobile-menu nav').length) {
+            $('.mobile-menu nav').meanmenu({
+                meanScreenWidth: "991",
+                meanMenuContainer: ".mobile-menu",
+                meanMenuOpen: "<span></span> <span></span> <span></span>",
+                onePage: false
+            });
+        }
+
+        /* FAQs */
+        $(".faqs-container .faq-singular:first-child")
+            .addClass("active")
+            .children(".faq-answer")
+            .slideDown();
+
+        $(".faq-question").on("click", function () {
+            if ($(this).parent().hasClass("active")) {
+                $(this).next().slideUp();
+                $(this).parent().removeClass("active");
+            } else {
+                $(".faq-answer").slideUp();
+                $(".faq-singular").removeClass("active");
+                $(this).parent().addClass("active");
+                $(this).next().slideDown();
+            }
+        });
+
     });
 
-/*faqs*/
-    $(document).ready(function() {
-  $(".faqs-container .faq-singular:first-child").addClass("active").children(".faq-answer").slideDown();//Remove this line if you dont want the first item to be opened automatically.
-  $(".faq-question").on("click", function(){
-    if( $(this).parent().hasClass("active") ){
-      $(this).next().slideUp();
-      $(this).parent().removeClass("active");
-    }
-    else{
-      $(".faq-answer").slideUp();
-      $(".faq-singular").removeClass("active");
-      $(this).parent().addClass("active");
-      $(this).next().slideDown();
-    }
-  });
-});
 
 
 // :: Hero Home one Slides
@@ -170,4 +178,7 @@ window.addEventListener('resize', updateMarqueDivWidth);
 
 
 })(jQuery);
+$(window).on('load', function () {
+    $('.loader-wrapper').fadeOut('slow');
+});
 
