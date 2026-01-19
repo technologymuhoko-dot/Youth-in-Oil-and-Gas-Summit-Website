@@ -128,13 +128,12 @@
 
 						// re-instate original nav (and call this on window.width functions)
 						var meanOriginal = function() {
-							jQuery('.mean-nav').remove(); 
+							jQuery('.mean-bar,.mean-push').remove();
 							jQuery(meanContainer).removeClass("mean-container");
 							jQuery(meanMenu).css('display', meanDisplay);
 							menuOn = false;
 							meanMenuExist = false;
 							jQuery(removeElements).removeClass('mean-remove');
-							$navreveal.removeClass("meanclose").html(meanMenuOpen);
 						};
 
 						// navigation reveal
@@ -144,9 +143,8 @@
 								jQuery(removeElements).addClass('mean-remove');
 									meanMenuExist = true;
 									// add class to body so we don't need to worry about media queries here, all CSS is wrapped in '.mean-container'
-									jQuery(meanContainer).addClass("mean-container");
-									jQuery('.mean-container').prepend('<div class="mean-bar"><a href="#nav" class="meanmenu-reveal" style="'+meanStyles+'">Show Navigation</a><nav class="mean-nav"></nav></div>');
-
+									jQuery(meanCon0tainer).addClass("mean-container");
+                                    jQuery('.mean-bar .mean-nav').html(meanMenuContents);
 									//push meanMenu navigation into .mean-nav
 									var meanMenuContents = jQuery(meanMenu).html();
 									jQuery('.mean-nav').html(meanMenuContents);
@@ -179,7 +177,9 @@
 									//hide mean-nav ul
 									jQuery('.mean-nav ul').hide();
 
+									// hide sub nav
 									if(meanShowChildren) {
+											// allow expandable sub nav(s)
 											if(meanExpandableChildren){
 												jQuery('.mean-nav ul ul').each(function() {
 														if(jQuery(this).children().length){
@@ -204,27 +204,25 @@
 											jQuery('.mean-nav ul ul').hide();
 									}
 
+									// add last class to tidy up borders
 									jQuery('.mean-nav ul li').last().addClass('mean-last');
-									$navreveal = jQuery('.meanmenu-reveal');
-$navreveal.removeClass("meanclose");
-$navreveal.html(meanMenuOpen);       
-
-$navreveal.off('click').on('click', function(e){
-    e.preventDefault();
-
-    if(menuOn === false){
-        jQuery('.mean-nav ul:first').slideDown();
-        menuOn = true;
-        jQuery(this).html(meanMenuClose);       
-        jQuery(this).addClass('meanclose');     
-    } else {
-        jQuery('.mean-nav ul:first').slideUp();  
-        menuOn = false;
-        jQuery(this).html(meanMenuOpen);         
-        jQuery(this).removeClass('meanclose');   
-    }
-});
-
+									$navreveal.removeClass("meanclose");
+									jQuery($navreveal).click(function(e){
+										e.preventDefault();
+								if( menuOn === false ) {
+												$navreveal.css("text-align", "center");
+												$navreveal.css("text-indent", "0");
+												$navreveal.css("font-size", meanMenuCloseSize);
+												jQuery('.mean-nav ul:first').slideDown();
+												menuOn = true;
+										} else {
+											jQuery('.mean-nav ul:first').slideUp();
+											menuOn = false;
+										}
+											$navreveal.toggleClass("meanclose");
+											meanInner();
+											jQuery(removeElements).addClass('mean-remove');
+									});
 
 									// for one page websites, reset all variables...
 									if ( onePage ) {
