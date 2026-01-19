@@ -1,4 +1,4 @@
-<div class="top-header-area">
+ <div class="top-header-area">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6">
@@ -19,7 +19,7 @@
                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -41,38 +41,37 @@
         <div class="row align-items-center">
             <div class="col-lg-3">
                 <div class="header-logo">
-                    <a href="index.blade.php"><img src="front_end/assets/images/home/logo.svg" alt="logo"></a>
+                    <a href="{{ url('/') }}"><img src="front_end/assets/images/home/logo.svg" alt="logo"></a>
                 </div>
             </div>
             <div class="col-lg-9">
                 <div class="header-menu">
                     <ul>
-                        <li class="menu-item-has-children"><a href="#">About Us <i
+                        <li class="menu-item-has-children"><a href="/about">About Us <i
                                     class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
-                                <li><a href="#">Why Walvis Bay?</a></li>
-                                <li><a href="#">Why Now?</a></li>
-                                <li><a href="#">Welcome</a></li>
-                                <li><a href="#">Advisory Board</a></li>
+                                <li><a href="/about/why-walvis-bay">Why Walvis Bay?</a></li>
+                                <li><a href="/about/why-now">Why Now?</a></li>
+                                <li><a href="/about/welcome">Welcome</a></li>
+                                <li><a href="/about/advisory-board">Advisory Board</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Sponser/Exhibit</a></li>
-                        <li class="menu-item-has-children"><a href="#">Programme<i
+                        <li><a href="/sponsor">Sponser/Exhibit</a></li>
+                        <li class="menu-item-has-children"><a href="/programme">Programme<i
                                     class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
-                                <li><a href="#">Schedule</a></li>
-                                <li><a href="#">Call for Papers</a></li>
+                                <li><a href="/programme/schedule">Schedule</a></li>
+                                <li><a href="/programme/call-for-papers">Call for Papers</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Partners</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">2025 Recap</a></li>
-                        <li class="menu-item-has-children"><a href="#">Programme<i
+                        <li><a href="/partners">Partners</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
+                        <li class="menu-item-has-children"><a href="/recap">2025 Recap<i
                                     class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
-                                <li><a href="#">Gallery</a></li>
-                                <li><a href="#">Post-Event Report</a></li>
-                                <li><a href="#">2025 info</a></li>
+                                <li><a href="/recap/gallery">Gallery</a></li>
+                                <li><a href="/recap/report">Post-Event Report</a></li>
+                                <li><a href="/recap/info">2025 info</a></li>
                             </ul>
                         </li>
                     </ul>
