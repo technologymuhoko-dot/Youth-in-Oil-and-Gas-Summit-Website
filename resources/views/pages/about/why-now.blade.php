@@ -1,10 +1,15 @@
 <x-layout title="YIOGS 2026 | Why Now">
 
-    <!-- Breadcumb / Page Title -->
+    <!-- Breadcumb -->
     <section class="breadcumb-area">
-        <div class="container text-center">
-            <h1>Why Now?</h1>
-
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcumb-content">
+                        <h1 class="breadcumb-content">Why Now?</h1>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
