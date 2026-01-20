@@ -945,6 +945,7 @@ p.section-desc {
     font-weight: 500;
 }
 
+
 .about-card {
     background: #fff;
     padding: 40px;
@@ -953,29 +954,6 @@ p.section-desc {
 .about-card img {
     max-width: 220px;
 }
-
-.about-impact {
-    position: relative;
-    padding: 100px 0;
-    background-size: cover;
-    background-position: center;
-}
-.about-impact-overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,0.65);
-}
-.about-impact .container {
-    position: relative;
-}
-.about-impact h3 {
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-.about-impact ul li {
-    margin-bottom: 10px;
-}
-
 
 
 
