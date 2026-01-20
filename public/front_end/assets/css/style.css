@@ -2648,7 +2648,7 @@ transform: rotate(360deg);
 }
 
 .home-two .service-content a:hover{
-    color: #49AE44;
+    color: #AA8F00;
 }
 
 .home-two .service-content a:before {
@@ -2658,7 +2658,7 @@ transform: rotate(360deg);
     height: 2px;
     bottom: -20px;
     left: 0;
-    background: #49AE44;
+    background: #AA8F00;
 }
 
 .home-two .service-content p {
@@ -2683,19 +2683,19 @@ transform: rotate(360deg);
     display: inline-block;
     font-size: 24px;
     border-radius: 50%;
-    color: #111111;
+    color: #000000;
     width: 44px;
     height: 44px;
     text-align: center;
     line-height: 44px;
     transform: rotate(-45deg);
     position: relative;
-    border: 1px solid rgba(0,24,25,0.10);
+    border: 1px solid #AA8F00;
     transition: 0.5s;
 }
 
 .home-two .service-button a:hover i{
-    background:#49AE44;
+    background:#AA8F00;
     color:#fff;
 }
 
@@ -5683,7 +5683,7 @@ span.price {
 
 .section-title.center h4 {
     text-transform: uppercase;
-    color: #49af45;
+    color: #AA8F00;
     font-weight:600;
     font-size: 16px;
     margin-bottom: 18px;
@@ -6444,14 +6444,14 @@ span.price {
 .breadcumb-title h4 {
     font-size: 46px;
     font-weight: 800;
-    color: #ffff;
+    color: #66461D;
     padding-bottom: 13px;
 }
 
 .breadcumb-content ul li {
     display: inline-block;
     margin: 0 19px;
-    color:#fff;
+    color:#AA8F00;
 }
 
 .breadcumb-content ul li.khela-hbe {
@@ -6472,7 +6472,7 @@ span.price {
 .breadcumb-content ul li a {
     display: inline-block;
     font-size: 16px;
-    color: #fff;
+    color: #AA8F00;
     font-weight: 500;
     position: relative;
 }
@@ -6484,7 +6484,7 @@ span.price {
     height: 2px;
     right: -30px;
     top: 13px;
-    background: #fff;
+    background: #AA8F00;
 }
 
 .breadcumb-content ul li img {
@@ -6611,7 +6611,7 @@ p.services-details-desc {
 }
 
 .services-details-text {
-    background: #49AE44;
+    background: #A97735;
     display: flex;
     align-items: center;
     padding: 32px 39px;
@@ -6676,7 +6676,7 @@ p.services-details-desc {
 
 .services-details-area .benifits-content ul li i {
     display: inline-block;
-    color: #49AF45;
+    color: #AA8F00;
     font-size: 18px;
     position: relative;
     top: 2px;
@@ -6706,7 +6706,7 @@ p.services-details-desc {
     height: 2px;
     left: 0;
     bottom: -8px;
-    background: #49AF45;
+    background: #AA8F00;
 }
 
 .widget-category ul li img {
@@ -6743,7 +6743,7 @@ p.services-details-desc {
     height: 100%;
     left: 50%;
     top: 0;
-    background: #49AF45;
+    background: #A97735;
     z-index: -1;
     border-radius: 5px;
     transition: 0.5s;
@@ -6770,7 +6770,7 @@ p.services-details-desc {
 
 .widget-sidber-download-button a {
     display: inline-block;
-    background: #00181A;
+    background: #A97735;
     width: 100%;
     color: #fff;
     padding: 15px 23px;
@@ -6779,11 +6779,11 @@ p.services-details-desc {
 }
 
 .widget-sidber-download-button a.active {
-   background: #49AF45;
+   background: #D09A40;
 } 
 
 .widget-sidber-download-button i {
-    color: #49AE44;
+    color: #fff;
     display: inline-block;
     font-size: 22px;
     margin-right: 9px;
@@ -6851,7 +6851,7 @@ p.project-details-desc {
 
 .project-details-list-item ul li i {
     display: inline-block;
-    color: #49AF45;
+    color: #AA8F00;
     font-size: 19px;
     margin-right: 11px;
     position: relative;
@@ -6867,7 +6867,7 @@ a.project-details-text {
     display: inline-block;
     font-size: 28px;
     line-height: 38px;
-    color: #49af45;
+    color: #AA8F00;
     font-weight: 600;
     margin-top: 50px;
     margin-bottom: 19px;
@@ -7645,7 +7645,7 @@ span.widget-sidber-contact-gmail {
 span.widget-sidber-contact-gmail i {
     display: inline-block;
     font-size: 17px;
-    color: #49AE44;
+    color: #AA8F00;
     position: relative;
     top: 2px;
     margin-right: 6px;
@@ -7658,17 +7658,17 @@ span.widget-sidber-contact-gmail i {
     font-weight: 400;
     font-family: "Inter";
     text-decoration: none;
-    background: #49AE44;
+    background: #D09A40;
     padding: 16px 98px 15px;
     border-radius: 5px;
     margin-top: 55px;
     transition: 0.5s;
-    border: 2px solid #49AE44;
+    border: 2px solid #D09A40;
 }
 
 .widget-sidber-contact-btn  a:hover{
     background: transparent;
-    color:#49AE44;
+    color:#D09A40;
 }
 
 .widget-sidber-contact-btn a i {
@@ -8148,7 +8148,7 @@ p.blog-list-desc {
 
 .home-six .section-title.center h4 {
     text-transform: uppercase;
-    color: #49af45;
+    color: #AA8F00;
     font-weight: 600;
     font-size: 16px;
     margin-bottom: 18px;
