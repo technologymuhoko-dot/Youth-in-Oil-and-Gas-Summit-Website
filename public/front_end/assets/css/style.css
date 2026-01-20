@@ -779,6 +779,12 @@ img.about-thumb-shape {
     }
 }
 
+.breadcumb-content h1 {
+    font-size: 76px;
+    color: #66461D;
+    font-weight: 800;
+    line-height: 71px;
+}
 
 .about-right {
     position: relative;
@@ -924,6 +930,31 @@ p.section-desc {
     margin-top: 20px; 
   }
 }
+
+.about-heading {
+    color: #A97735;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.about-values {
+    margin-top: 15px;
+}
+.about-values li {
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+
+.about-card {
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+.about-card img {
+    max-width: 220px;
+}
+
 
 
 

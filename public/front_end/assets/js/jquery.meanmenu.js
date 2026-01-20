@@ -128,13 +128,12 @@
 
 						// re-instate original nav (and call this on window.width functions)
 						var meanOriginal = function() {
-							jQuery('.mean-nav').remove(); 
+							jQuery('.mean-bar,.mean-push').remove();
 							jQuery(meanContainer).removeClass("mean-container");
 							jQuery(meanMenu).css('display', meanDisplay);
 							menuOn = false;
 							meanMenuExist = false;
 							jQuery(removeElements).removeClass('mean-remove');
-							$navreveal.removeClass("meanclose").html(meanMenuOpen);
 						};
 
 						// navigation reveal
@@ -179,7 +178,9 @@
 									//hide mean-nav ul
 									jQuery('.mean-nav ul').hide();
 
+									// hide sub nav
 									if(meanShowChildren) {
+											// allow expandable sub nav(s)
 											if(meanExpandableChildren){
 												jQuery('.mean-nav ul ul').each(function() {
 														if(jQuery(this).children().length){
@@ -204,27 +205,25 @@
 											jQuery('.mean-nav ul ul').hide();
 									}
 
+									// add last class to tidy up borders
 									jQuery('.mean-nav ul li').last().addClass('mean-last');
-									$navreveal = jQuery('.meanmenu-reveal');
-$navreveal.removeClass("meanclose");
-$navreveal.html(meanMenuOpen);       
-
-$navreveal.off('click').on('click', function(e){
-    e.preventDefault();
-
-    if(menuOn === false){
-        jQuery('.mean-nav ul:first').slideDown();
-        menuOn = true;
-        jQuery(this).html(meanMenuClose);       
-        jQuery(this).addClass('meanclose');     
-    } else {
-        jQuery('.mean-nav ul:first').slideUp();  
-        menuOn = false;
-        jQuery(this).html(meanMenuOpen);         
-        jQuery(this).removeClass('meanclose');   
-    }
-});
-
+									$navreveal.removeClass("meanclose");
+									jQuery($navreveal).click(function(e){
+										e.preventDefault();
+								if( menuOn === false ) {
+												$navreveal.css("text-align", "center");
+												$navreveal.css("text-indent", "0");
+												$navreveal.css("font-size", meanMenuCloseSize);
+												jQuery('.mean-nav ul:first').slideDown();
+												menuOn = true;
+										} else {
+											jQuery('.mean-nav ul:first').slideUp();
+											menuOn = false;
+										}
+											$navreveal.toggleClass("meanclose");
+											meanInner();
+											jQuery(removeElements).addClass('mean-remove');
+									});
 
 									// for one page websites, reset all variables...
 									if ( onePage ) {
