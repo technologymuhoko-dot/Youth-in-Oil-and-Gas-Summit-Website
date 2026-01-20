@@ -8,7 +8,7 @@ class RecapController extends Controller
 {
     public function index()
     {
-        return view('pages.recap');
+        return redirect('/recap/gallery');
     }
 
     public function gallery()

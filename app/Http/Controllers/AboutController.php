@@ -8,13 +8,13 @@ class AboutController extends Controller
 {
     public function index()
     {
-        return view('pages.about');
+        return redirect('/about/whywalvisbay');
     }
 
     // ABOUT > Why Walvis Bay?
     public function whyWalvisBay()
     {
-        return view('pages.about.why-walvis-bay');
+        return view('pages.about.whywalvisbay');
     }
 
     // ABOUT > Why Now?

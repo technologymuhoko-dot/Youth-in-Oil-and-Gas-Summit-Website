@@ -11,7 +11,7 @@ use App\Http\Controllers\RecapController;
 Route::get('/', [HomeController::class, 'index']);
 
 Route::get('/about', [AboutController::class, 'index']);
-Route::get('/about/why-walvis-bay', [AboutController::class, 'whyWalvisBay']);
+Route::get('/about/whywalvisbay', [AboutController::class, 'whyWalvisBay']);
 Route::get('/about/why-now', [AboutController::class, 'whyNow']);
 Route::get('/about/welcome', [AboutController::class, 'welcome']);
 Route::get('/about/advisory-board', [AboutController::class, 'advisoryBoard']);
