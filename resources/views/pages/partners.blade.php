@@ -1,83 +1,153 @@
 <x-layout title="YIOGS 2026 | Partners">
 
-    <!--==================================================-->
-    <!-- Partners Hero / Heading -->
-    <!--==================================================-->
-    <section class="partners-hero section-padding text-center" style="background-color:#f9f9f9;">
-        <div class="container">
-            <h1 class="main-heading" data-animation="fadeInUp" data-delay="100ms">
-                DRIVING IMPACT THROUGH STRATEGIC PARTNERSHIP
-            </h1>
-            <h4 class="sub-heading mt-3" data-animation="fadeInUp" data-delay="200ms">
-                A Heartfelt Thanks to our 2025 Partners and Sponsors!
-            </h4>
-            <p class="mt-4" data-animation="fadeInUp" data-delay="300ms">
-                The success of the Youth in Oil and Gas Summit is rooted in the unwavering support of our partners. We extend our deepest gratitude to the organisations that championed Namibia’s youth in 2025, providing the platform and resources necessary to bridge the skills gap in our burgeoning energy sector. Their commitment ensures that the 'Brain Gain' remains a reality for our nation.
-            </p>
-            <p data-animation="fadeInUp" data-delay="400ms">
-                Interested in joining the 2026 movement? Position your brand alongside the industry leaders shaping Namibia’s future. To discuss partnership opportunities for 2026, please contact our team at 
-                <a href="mailto:info@yiogs.com.na">info@yiogs.com.na</a>.
-            </p>
-        </div>
-    </section>
-    <!--==================================================-->
-    <!-- End Partners Hero -->
-    <!--==================================================-->
+<!--==================================================-->
+<!-- Start Echofy Breadcumb Area -->
+<!--==================================================-->
+<div class="breadcumb-area">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-12 text-center">
+				<div class="breadcumb-content">
+					<div class="breadcumb-title">
+						<h4>Our Services</h4>
+					</div>
+					<ul>
+						<li><a href="index.html"><img src="assets/images/inner-images/breadcumb-text-shape.png" alt="">Echofy</a></li>
+						<li>Service</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--==================================================-->
+<!-- End Echofy Breadcumb Area -->
+<!--==================================================-->
 
 
-    <!--==================================================-->
-    <!-- Partner Logo Wall (2025 Archive) -->
-    <!--==================================================-->
-    <section class="partners-logos section-padding">
-        <div class="container text-center">
-            <h3 class="sub-heading mb-5" data-animation="fadeInUp" data-delay="100ms">
-                2025 PARTNERS & SPONSORS
-            </h3>
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-2 col-md-3 col-4 mb-4" data-animation="fadeInUp" data-delay="200ms">
-                    <img src="{{ asset('front_end/assets/images/partners/logo1.png') }}" class="img-fluid" alt="Partner 1">
-                </div>
-                <div class="col-lg-2 col-md-3 col-4 mb-4" data-animation="fadeInUp" data-delay="300ms">
-                    <img src="{{ asset('front_end/assets/images/partners/logo2.png') }}" class="img-fluid" alt="Partner 2">
-                </div>
-                <div class="col-lg-2 col-md-3 col-4 mb-4" data-animation="fadeInUp" data-delay="400ms">
-                    <img src="{{ asset('front_end/assets/images/partners/logo3.png') }}" class="img-fluid" alt="Partner 3">
-                </div>
+
+<!--==================================================-->
+<!-- Strat Echofy Service Area Home-two -->
+<!--==================================================-->
+<div class="service-area home-two inner">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<div class="section-title center">
+					<h4><img src="assets/images/home1/section-shape.png" alt="">Our Services</h4>
+					<h1>Echofy Provide Environment</h1>
+					<h1>Best Leading Services</h1>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+		    <div class="col-lg-4 col-md-6">
+         	    <div class="single-service-box">
+         	    	<div class="service-thumb">
+         	    		<img src="{{ asset('front_end/assets/images/home/services-1.png') }}" alt="">
+         	    	</div>
+         	    	<div class="service-content">
+         	    		<div class="services-icon">
+         	    			<img src="assets/images/home2/service-icon-1.png" alt="">
+         	    		</div>
+         	    		<a href="service-details.html">Cleaning Ocean</a>
+         	    		<p>Alternative innovation to ethical network environmental whiteboard</p>
+         	    		<div class="service-button">
+         	    			<a href="service.html">Discover More<i class="bi bi-arrow-right-short"></i></a>
+         	    		</div>
+         	    	</div>
+         	    </div>
+           </div>			  
+            <div class="col-lg-4 col-md-6">
+         	    <div class="single-service-box">
+         	    	<div class="service-thumb">
+         	    		<img src="{{ asset('front_end/assets/images/home/services-2.png') }}" alt="">
+         	    	</div>
+         	    	<div class="service-content">
+         	    		<div class="services-icon">
+         	    			<img src="assets/images/home2/service-icon-2.png" alt="">
+         	    		</div>
+         	    		<a href="service-details.html">Dust Recycling</a>
+         	    		<p>Alternative innovation to ethical network environmental whiteboard</p>
+         	    		<div class="service-button">
+         	    			<a href="service.html">Discover More<i class="bi bi-arrow-right-short"></i></a>
+         	    		</div>
+         	    	</div>
+         	    </div>
+           </div>			   
+            <div class="col-lg-4 col-md-6">
+         	    <div class="single-service-box">
+         	    	<div class="service-thumb">
+         	    		<img src="{{ asset('front_end/assets/images/home/services-3.png') }}" alt="">
+         	    	</div>
+         	    	<div class="service-content">
+         	    		<div class="services-icon">
+         	    			<img src="assets/images/home2/service-icon-3.png" alt="">
+         	    		</div>
+         	    		<a href="service-details.html">Plant Seedlings</a>
+         	    		<p>Alternative innovation to ethical network environmental whiteboard</p>
+         	    		<div class="service-button">
+         	    			<a href="service.html">Discover More<i class="bi bi-arrow-right-short"></i></a>
+         	    		</div>
+         	    	</div>
+         	    </div>
             </div>
-        </div>
-    </section>
-    <!--==================================================-->
-    <!-- End Logo Wall -->
-    <!--==================================================-->
-
-
-    <!--==================================================-->
-    <!-- Testimonials -->
-    <!--==================================================-->
-    <section class="partners-testimonials section-padding bg-light">
-        <div class="container text-center">
-            <h3 class="sub-heading mb-5" data-animation="fadeInUp" data-delay="100ms">
-                WHAT OUR PARTNERS SAY
-            </h3>
-
-            <div class="owl-carousel owl-theme">
-                <div class="item" data-animation="fadeInUp" data-delay="200ms">
-                    <blockquote class="testimonial">
-                        ‘A vital platform for identifying the next generation of Namibian technical talent’
-                        <footer>- Partner 1</footer>
-                    </blockquote>
-                </div>
-                <div class="item" data-animation="fadeInUp" data-delay="400ms">
-                    <blockquote class="testimonial">
-                        ‘YIOGS provides the strategic alignment between industry needs and youth potential’
-                        <footer>- Partner 2</footer>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--==================================================-->
-    <!-- End Testimonials -->
-    <!--==================================================-->
+            <div class="col-lg-4 col-md-6">
+         	    <div class="single-service-box">
+         	    	<div class="service-thumb">
+         	    		<img src="{{ asset('front_end/assets/images/home/services-4.png') }}" alt="">
+         	    	</div>
+         	    	<div class="service-content">
+         	    		<div class="services-icon">
+         	    			<img src="assets/images/home2/service-icon-4.png" alt="">
+         	    		</div>
+         	    		<a href="service-details.html">Carbon Offseting</a>
+         	    		<p>Alternative innovation to ethical network environmental whiteboard</p>
+         	    		<div class="service-button">
+         	    			<a href="service.html">Discover More<i class="bi bi-arrow-right-short"></i></a>
+         	    		</div>
+         	    	</div>
+         	    </div>
+           </div>	
+            <div class="col-lg-4 col-md-6">
+         	    <div class="single-service-box">
+         	    	<div class="service-thumb">
+         	    		<img src="{{ asset('front_end/assets/images/home/services-5.png') }}" alt="">
+         	    	</div>
+         	    	<div class="service-content">
+         	    		<div class="services-icon">
+         	    			<img src="assets/images/home2/service-icon-5.png" alt="">
+         	    		</div>
+         	    		<a href="service-details.html">Renewable Energy</a>
+         	    		<p>Alternative innovation to ethical network environmental whiteboard</p>
+         	    		<div class="service-button">
+         	    			<a href="service.html">Discover More<i class="bi bi-arrow-right-short"></i></a>
+         	    		</div>
+         	    	</div>
+         	    </div>
+           </div>
+           <div class="col-lg-4 col-md-6">
+         	    <div class="single-service-box">
+         	    	<div class="service-thumb">
+         	    		<img src="{{ asset('front_end/assets/images/home/services-6.png') }}" alt="">
+         	    	</div>
+         	    	<div class="service-content">
+         	    		<div class="services-icon">
+         	    			<img src="assets/images/home2/service-icon-6.png" alt="">
+         	    		</div>
+         	    		<a href="service-details.html">Global Warming</a>
+         	    		<p>Alternative innovation to ethical network environmental whiteboard</p>
+         	    		<div class="service-button">
+         	    			<a href="service.html">Discover More<i class="bi bi-arrow-right-short"></i></a>
+         	    		</div>
+         	    	</div>
+         	    </div>
+           </div>	
+		</div>
+	</div>
+</div>
+<!--==================================================-->
+<!-- End Echofy Service Area Home-Two-->
+<!--==================================================-->
 
 </x-layout>

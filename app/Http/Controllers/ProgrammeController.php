@@ -8,7 +8,7 @@ class ProgrammeController extends Controller
 {
     public function index()
     {
-        // Optional: Could redirect to /programme/schedule or show a brief overview
+       
         return redirect('/programme/schedule');
     }
 

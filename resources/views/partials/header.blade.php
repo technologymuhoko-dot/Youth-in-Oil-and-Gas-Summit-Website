@@ -51,7 +51,7 @@
                         <li class="menu-item-has-children"><a href="/about">About Us <i
                                 class="fas fa-chevron-down"></i></a>
                             <ul class="sub-menu">
-                                <li><a href="/about/why-walvis-bay">Why Walvis Bay?</a></li>
+                                <li><a href="/about/whywalvisbay">Why Walvis Bay?</a></li>
                                 <li><a href="/about/why-now">Why Now?</a></li>
                                 <li><a href="/about/welcome">Welcome</a></li>
                                 <li><a href="/about/advisory-board">Advisory Board</a></li>
@@ -104,7 +104,7 @@
                 <li class="menu-item-has-children"><a href="/about">About Us <i
                         class="fas fa-chevron-down"></i></a>
                     <ul class="sub-menu">
-                         <li><a href="/about/why-walvis-bay">Why Walvis Bay?</a></li>
+                         <li><a href="/about/whywalvisbay">Why Walvis Bay?</a></li>
                          <li><a href="/about/why-now">Why Now?</a></li>
                          <li><a href="/about/welcome">Welcome</a></li>
                          <li><a href="/about/advisory-board">Advisory Board</a></li>
