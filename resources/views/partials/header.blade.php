@@ -5,7 +5,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="top-header-info">
                     <ul>
-                        <li><i class="bi bi-geo-alt"></i>Meersig-Walvis Bay</li>
+                        <li><i class="bi bi-geo-alt"></i>Walvis Bay</li>
                         <li><i class="bi bi-envelope-open"></i>info@yiogs.com.na</li>
                     </ul>
                 </div>
@@ -74,7 +74,7 @@
                         <a href="#"><i class="bi bi-search"></i></a>
                     </div>
                     <div class="header-button">
-                        <a href="contact.html">Early Bird Booking</a>
+                        <a href="contact.html">Early Bird</a>
                     </div>
                 </div>
             </div>
@@ -342,7 +342,7 @@
     width: 45px;
     height: 45px;
     border-radius: 8px;
-    border: 1px solid #dee2e6;
+    border: 1px solid #fff;
 }
 
 #mobile-menu-btn i {
@@ -406,7 +406,7 @@
     background: #fff;
     z-index: 10;
     padding: 20px;
-    border-bottom: 1px solid #e9ecef;
+    border-bottom: 1px solid #AA8F00;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -422,7 +422,7 @@
     font-size: 24px;
     cursor: pointer;
     padding: 5px;
-    color: #333;
+    color: #AA8F00;
     transition: color 0.3s ease;
 }
 
@@ -442,7 +442,7 @@
 }
 
 .mobile-contact-info i {
-    color: #0d6efd;
+    color: #AA8F00;
     width: 20px;
 }
 
@@ -461,7 +461,7 @@
 }
 
 .mobile-navigation > ul > li > a:hover {
-    color: #0d6efd;
+    color: #AA8F00;
 }
 
 .mobile-navigation .menu-item-has-children > a i {
@@ -499,7 +499,7 @@
 }
 
 .mobile-navigation .sub-menu li a:hover {
-    color: #0d6efd;
+    color: #AA8F00;
 }
 
 /* Search */
@@ -511,7 +511,7 @@
 }
 
 .mobile-search a:hover {
-    color: #0d6efd;
+    color: #AA8F00;
 }
 
 /* Social Icons */
@@ -520,13 +520,13 @@
     height: 40px;
     background: #f8f9fa;
     border-radius: 50%;
-    color: #212529;
+    color: #AA8F00;
     transition: all 0.3s ease;
     text-decoration: none;
 }
 
 .mobile-social-icons ul li a:hover {
-    background: #0d6efd;
+    background: #F6D784;
     color: #fff;
 }
 

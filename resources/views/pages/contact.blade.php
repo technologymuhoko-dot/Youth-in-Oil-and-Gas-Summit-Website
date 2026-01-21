@@ -8,10 +8,10 @@
             <div class="row align-items-center">
                 <div class="col-lg-12 text-center">
                     <div class="breadcumb-content">
-                        <h4 style="color:#222;">Contact Us</h4>
+                        <h4 style="color:#66461D;">Contact Us</h4>
                         <ul>
-                            <li><a href="{{ url('/') }}" style="color:#A97735;">Home</a></li>
-                            <li style="color:#555;">Contact Us</li>
+                            <li><a href="{{ url('/') }}" style="color:#AA8F00;">Home</a></li>
+                            <li style="color:#AA8F00;">Contact Us</li>
                         </ul>
                     </div>
                 </div>
@@ -29,30 +29,30 @@
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="contact-info-box text-center p-4 bg-white shadow-sm rounded">
                         <div class="contact-info-icon mb-3">
-                            <i class="bi bi-geo-alt fs-2" style="color:#A97735;"></i>
+                            <i class="bi bi-geo-alt fs-2" style="color:#AA8F00;"></i>
                         </div>
                         <h5 style="color:#222;">Headquarters</h5>
-                        <p style="color:#555;">Erf 702, Nossob Street<br>Meersig, Walvis Bay</p>
+                        <p style="color:#AA8F00;">Erf 702, Nossob Street<br>Meersig, Walvis Bay</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="contact-info-box text-center p-4 bg-white shadow-sm rounded">
                         <div class="contact-info-icon mb-3">
-                            <i class="bi bi-envelope fs-2" style="color:#A97735;"></i>
+                            <i class="bi bi-envelope fs-2" style="color:#AA8F00;"></i>
                         </div>
                         <h5 style="color:#222;">Email</h5>
-                        <p><a href="mailto:info@yiogs.com.na" style="color:#A97735;">info@yiogs.com.na</a></p>
+                        <p><a href="mailto:info@yiogs.com.na" style="color:#AA8F00;">info@yiogs.com.na</a></p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="contact-info-box text-center p-4 bg-white shadow-sm rounded">
                         <div class="contact-info-icon mb-3">
-                            <i class="bi bi-telephone fs-2" style="color:#A97735;"></i>
+                            <i class="bi bi-telephone fs-2" style="color:#AA8F00;"></i>
                         </div>
                         <h5 style="color:#222;">Phone</h5>
-                        <p style="color:#555;">+264 81 216 5752</p>
+                        <p style="color:#AA8F00;">+264 81 216 5752</p>
                     </div>
                 </div>
 
