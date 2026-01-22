@@ -6522,3 +6522,48 @@ h3.blog-details-title.two {
         left: 75%;
     }
 }
+
+/* ============================= */
+/* TEAM SECTION – TRUE MOBILE FIX */
+/* ============================= */
+
+.team-mobile-fix {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* Small phones (iPhone SE) */
+@media (max-width: 480px) {
+    .team-mobile-fix {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .single-team-box {
+        margin-bottom: 32px;
+    }
+
+    .single-team-thumb img {
+        width: 100%;
+        height: auto;
+    }
+
+    .team-content h4 {
+        font-size: 17px;
+    }
+
+    .team-content p {
+        font-size: 14px;
+    }
+}
+
+/* Medium phones → iPad Mini */
+@media (min-width: 481px) and (max-width: 820px) {
+    .single-team-box {
+        margin-bottom: 36px;
+    }
+
+    .team-content {
+        padding: 18px 16px;
+    }
+}

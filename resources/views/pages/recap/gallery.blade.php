@@ -33,18 +33,18 @@
 <div class="team-area inner">
 	<div class="container">
 		<div class="row">
-		   <div class="col-lg-12 text-center">
-				<div class="section-title center">
+		   <div class="col-lg-12 text-center mb-5">
+				<div class="section-title center pb-4 mb-4">
 					<h4><img src="assets/images/home1/section-shape.png" alt="">Our Team</h4>
 					<h1>Meet Our Dedicated Members</h1>
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-6">
+		<div class="row mt-5">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-4">
 				<div class="single-team-box">
 					<div class="single-team-thumb">
-						<img src="{{ asset('front_end/assets/images/home/team-1.png') }}" alt="">
+						<img src="{{ asset('front_end/assets/images/home/team-1.png') }}" alt="" class="img-fluid">
 					</div>
 					<div class="team-content">
 						<h4>Connie Diaz</h4>
@@ -60,10 +60,10 @@
 					</div>
 				</div>
 			</div>			
-			<div class="col-lg-4 col-md-6">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-4">
 				<div class="single-team-box">
 					<div class="single-team-thumb">
-						<img src="{{ asset('front_end/assets/images/home/team-2.png') }}" alt="">
+						<img src="{{ asset('front_end/assets/images/home/team-2.png') }}" alt="" class="img-fluid">
 					</div>
 					<div class="team-content">
 						<h4>James E. Huey</h4>
@@ -79,10 +79,10 @@
 					</div>
 				</div>
 			</div>			
-			<div class="col-lg-4 col-md-6">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-4">
 				<div class="single-team-box">
 					<div class="single-team-thumb">
-						<img src="{{ asset('front_end/assets/images/home/team-3.png') }}" alt="">
+						<img src="{{ asset('front_end/assets/images/home/team-3.png') }}" alt="" class="img-fluid">
 					</div>
 					<div class="team-content">
 						<h4>June D. Vargas</h4>
@@ -98,10 +98,10 @@
 					</div>
 				</div>
 			</div>			
-			<div class="col-lg-4 col-md-6">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-4">
 				<div class="single-team-box">
 					<div class="single-team-thumb">
-						<img src="{{ asset('front_end/assets/images/home/team-4.png') }}" alt="">
+						<img src="{{ asset('front_end/assets/images/home/team-4.png') }}" alt="" class="img-fluid">
 					</div>
 					<div class="team-content">
 						<h4>June D. Vargas</h4>
@@ -117,10 +117,10 @@
 					</div>
 				</div>
 			</div>			
-			<div class="col-lg-4 col-md-6">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-4">
 				<div class="single-team-box">
 					<div class="single-team-thumb">
-						<img src="{{ asset('front_end/assets/images/home/team-5.png') }}" alt="">
+						<img src="{{ asset('front_end/assets/images/home/team-5.png') }}" alt="" class="img-fluid">
 					</div>
 					<div class="team-content">
 						<h4>June D. Vargas</h4>
@@ -136,10 +136,10 @@
 					</div>
 				</div>
 			</div>			
-			<div class="col-lg-4 col-md-6">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-4">
 				<div class="single-team-box">
 					<div class="single-team-thumb">
-						<img src="{{ asset('front_end/assets/images/home/team-6.png') }}" alt="">
+						<img src="{{ asset('front_end/assets/images/home/team-6.png') }}" alt="" class="img-fluid">
 					</div>
 					<div class="team-content">
 						<h4>June D. Vargas</h4>
