@@ -29,7 +29,7 @@
     <script src="{{ asset('front_end/assets/js/vendor/modernizr-3.5.0.min.js') }}"></script>
 </head>
 
-<body>
+<body class="{{ request()->is('/') ? 'home-page' : 'inner-page' }}">
 
     <!-- loader -->
     <!--

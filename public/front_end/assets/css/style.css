@@ -560,6 +560,45 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
     padding: 14px 37px;
 }
 
+.echofy-button button {
+    display: inline-block;
+    background: #A97735;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 14px 40px;
+    border-radius: 6px;
+    border: 2px solid #A97735;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.5s;
+}
+
+.echofy-button button:hover {
+    color: #A97735;
+}
+
+.echofy-button button:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    background: #fff;
+    border-radius: 5px;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.echofy-button button:hover:before {
+    width: 100%;
+    left: 0;
+}
+
+
 /* --- Hero Mobile Responsive --- */
 @media (max-width: 768px) {
 
@@ -740,6 +779,12 @@ img.about-thumb-shape {
     }
 }
 
+.breadcumb-content h1 {
+    font-size: 76px;
+    color: #66461D;
+    font-weight: 800;
+    line-height: 71px;
+}
 
 .about-right {
     position: relative;
@@ -885,6 +930,31 @@ p.section-desc {
     margin-top: 20px; 
   }
 }
+
+.about-heading {
+    color: #A97735;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.about-values {
+    margin-top: 15px;
+}
+.about-values li {
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+
+.about-card {
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+.about-card img {
+    max-width: 220px;
+}
+
 
 
 

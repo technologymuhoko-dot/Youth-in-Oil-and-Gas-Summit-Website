@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class SponsorController extends Controller
+class ContactController extends Controller
 {
     public function index()
     {
-        return view('pages.sponsor');
+        return view('pages.contact');
     }
 }
