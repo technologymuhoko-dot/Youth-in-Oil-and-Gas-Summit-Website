@@ -1,4 +1,4 @@
-<x-layout>
+<x-layout title="Our Services">
 
     <!--==================================================-->
     <!-- Strat Echofy Service Area -->
