@@ -5,7 +5,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="top-header-info">
                     <ul>
-                        <li><i class="bi bi-geo-alt"></i>Walvis Bay</li>
+                        <li><i class="bi bi-geo-alt"></i>Meersig-Walvis Bay</li>
                         <li><i class="bi bi-envelope-open"></i>info@yiogs.com.na</li>
                     </ul>
                 </div>
@@ -74,7 +74,7 @@
                         <a href="#"><i class="bi bi-search"></i></a>
                     </div>
                     <div class="header-button">
-                        <a href="contact.html">Early Bird</a>
+                        <a href="contact.html">Early Bird Booking</a>
                     </div>
                 </div>
             </div>
@@ -82,32 +82,38 @@
     </div>
 </div>
 
-<!-- Mobile Header with Logo and Toggle -->
+<!-- Mobile Header with Logo on Left and Hamburger on Right -->
 <div class="mobile-header-bar d-lg-none">
     <div class="container-fluid">
-        <div class="d-flex justify-content-between align-items-center py-2">
+        <div class="d-flex justify-content-between align-items-center py-2 px-3">
+            <!-- Logo on Left - NOW VISIBLE -->
+            <div class="mobile-logo-left">
+                <a href="{{ url('/') }}">
+                    <img src="{{ asset('front_end/assets/images/home/logo.svg') }}" alt="logo" class="mobile-top-logo">
+                </a>
+            </div>
+            
+            <!-- Hamburger Menu on Right -->
             <button id="mobile-menu-btn" class="btn btn-light">
                 <i class="bi bi-list"></i>
             </button>
-            <div class="header-logo">
-                <a href="{{ url('/') }}"><img src="{{ asset('front_end/assets/images/home/logo.svg') }}" alt="logo"></a>
-            </div>
-            <div style="width: 50px;"></div> <!-- Spacer for centering -->
         </div>
     </div>
 </div>
 
-<!-- Mobile Menu Overlay & Sidebar -->
+<!-- Mobile Menu Overlay & Sidebar - NOW ON RIGHT SIDE -->
 <div class="mobile-menu-wrapper d-lg-none" id="mobile-menu">
     <div class="mobile-menu-overlay"></div>
     <div class="mobile-menu-sidebar">
-        <!-- Mobile Menu Header -->
+        <!-- Mobile Menu Header - Logo on left, Close button on right -->
         <div class="mobile-menu-header">
+            <!-- Logo on left -->
             <div class="mobile-logo">
                 <a href="{{ url('/') }}">
-                    <img src="{{ asset('front_end/assets/images/home/logo.svg') }}" alt="logo">
+                    <img src="{{ asset('front_end/assets/images/home/logo.svg') }}" alt="logo" class="mobile-menu-logo">
                 </a>
             </div>
+            <!-- Close button on right -->
             <button class="btn-close-menu" id="mobile-menu-close">
                 <i class="bi bi-x-lg"></i>
             </button>
@@ -325,7 +331,7 @@
     }
 }
 
-/* Mobile Header Bar */
+/* Mobile Header Bar - LOGO NOW VISIBLE ON LEFT */
 .mobile-header-bar {
     position: sticky;
     top: 0;
@@ -334,15 +340,34 @@
     z-index: 998;
 }
 
-.mobile-header-bar .header-logo img {
-    max-height: 40px;
+/* Logo on left side - NOW VISIBLE */
+.mobile-logo-left {
+    display: flex;
+    align-items: center;
+}
+
+.mobile-logo-left .mobile-top-logo {
+    height: 40px;
+    width: auto;
+    max-width: 200px;
+    display: block;
+}
+
+/* Ensure logo is visible */
+.mobile-top-logo {
+    height: 40px !important;
+    width: auto !important;
+    max-width: 200px !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
 }
 
 #mobile-menu-btn {
     width: 45px;
     height: 45px;
     border-radius: 8px;
-    border: 1px solid #fff;
+    border: 1px solid #dee2e6;
 }
 
 #mobile-menu-btn i {
@@ -380,23 +405,23 @@
     opacity: 1;
 }
 
-/* Sidebar */
+/* Sidebar - NOW ON RIGHT SIDE */
 .mobile-menu-sidebar {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0; /* Changed from left: 0 to right: 0 */
     width: 320px;
     max-width: 85%;
     height: 100%;
     background: #fff;
-    transform: translateX(-100%);
+    transform: translateX(100%); /* Changed from -100% to 100% */
     transition: transform 0.3s ease;
     overflow-y: auto;
-    box-shadow: 2px 0 15px rgba(0,0,0,0.2);
+    box-shadow: -2px 0 15px rgba(0,0,0,0.2); /* Changed shadow direction */
 }
 
 .mobile-menu-wrapper.active .mobile-menu-sidebar {
-    transform: translateX(0);
+    transform: translateX(0); /* Now slides in from right */
 }
 
 /* Mobile Menu Header */
@@ -405,15 +430,22 @@
     top: 0;
     background: #fff;
     z-index: 10;
-    padding: 20px;
-    border-bottom: 1px solid #AA8F00;
+    padding: 15px 20px;
+    border-bottom: 1px solid #e9ecef;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 70px;
 }
 
-.mobile-logo img {
-    max-height: 40px;
+/* Mobile Logo in Menu Header */
+.mobile-menu-header .mobile-logo img.mobile-menu-logo {
+    height: 40px !important;
+    width: auto !important;
+    max-width: 150px;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
 }
 
 .btn-close-menu {
@@ -422,7 +454,7 @@
     font-size: 24px;
     cursor: pointer;
     padding: 5px;
-    color: #AA8F00;
+    color: #333;
     transition: color 0.3s ease;
 }
 
@@ -442,7 +474,7 @@
 }
 
 .mobile-contact-info i {
-    color: #AA8F00;
+    color: #0d6efd;
     width: 20px;
 }
 
@@ -461,7 +493,7 @@
 }
 
 .mobile-navigation > ul > li > a:hover {
-    color: #AA8F00;
+    color: #0d6efd;
 }
 
 .mobile-navigation .menu-item-has-children > a i {
@@ -499,7 +531,7 @@
 }
 
 .mobile-navigation .sub-menu li a:hover {
-    color: #AA8F00;
+    color: #0d6efd;
 }
 
 /* Search */
@@ -511,7 +543,7 @@
 }
 
 .mobile-search a:hover {
-    color: #AA8F00;
+    color: #0d6efd;
 }
 
 /* Social Icons */
@@ -520,13 +552,13 @@
     height: 40px;
     background: #f8f9fa;
     border-radius: 50%;
-    color: #AA8F00;
+    color: #212529;
     transition: all 0.3s ease;
     text-decoration: none;
 }
 
 .mobile-social-icons ul li a:hover {
-    background: #F6D784;
+    background: #0d6efd;
     color: #fff;
 }
 
